@@ -31,8 +31,8 @@ CHIP "dtrig" ASSIGNED TO AN EPM7032LC44-6
 GND                              : 1
 GND                              : 2
 VCC                              : 3
-d                                : 4
-l                                : 5
+D                                : 4
+L                                : 5
 RESERVED                         : 6
 RESERVED                         : 7
 RESERVED                         : 8
@@ -66,9 +66,9 @@ VCC                              : 35
 RESERVED                         : 36
 RESERVED                         : 37
 RESERVED                         : 38
-q                                : 39
-RESERVED                         : 40
-qb                               : 41
+RESERVED                         : 39
+QB                               : 40
+Q                                : 41
 GND                              : 42
 GND                              : 43
 GND                              : 44

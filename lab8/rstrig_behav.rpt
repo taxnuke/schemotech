@@ -1,8 +1,8 @@
-Project Information                        e:\schemotech\lab2\rstrig_behav.rpt
+Project Information                        e:\schemotech\lab8\rstrig_behav.rpt
 
 MAX+plus II Compiler Report File
 Version 9.01 07/30/98
-Compiled: 03/13/17 14:41:07
+Compiled: 03/15/17 16:34:47
 
 Copyright (C) 1988-1998 Altera Corporation
 Any megafunction design, and related net list (encrypted or decrypted),
@@ -44,7 +44,7 @@ User Pins:                 2        1        0
 
 
 
-Device-Specific Information:               e:\schemotech\lab2\rstrig_behav.rpt
+Device-Specific Information:               e:\schemotech\lab8\rstrig_behav.rpt
 rstrig_behav
 
 ***** Logic for device 'rstrig_behav' compiled without errors.
@@ -98,7 +98,7 @@ RESERVED = Unused I/O pin, which MUST be left unconnected.
 
 
 
-Device-Specific Information:               e:\schemotech\lab2\rstrig_behav.rpt
+Device-Specific Information:               e:\schemotech\lab8\rstrig_behav.rpt
 rstrig_behav
 
 ** RESOURCE USAGE **
@@ -132,7 +132,7 @@ Synthesized logic cells:                         1/  32   (  3%)
 
 
 
-Device-Specific Information:               e:\schemotech\lab2\rstrig_behav.rpt
+Device-Specific Information:               e:\schemotech\lab8\rstrig_behav.rpt
 rstrig_behav
 
 ** INPUTS **
@@ -153,7 +153,7 @@ t = Turbo logic cell
 r = Fitter-inserted logic cell
 
 
-Device-Specific Information:               e:\schemotech\lab2\rstrig_behav.rpt
+Device-Specific Information:               e:\schemotech\lab8\rstrig_behav.rpt
 rstrig_behav
 
 ** OUTPUTS **
@@ -173,7 +173,7 @@ t = Turbo logic cell
 r = Fitter-inserted logic cell
 
 
-Device-Specific Information:               e:\schemotech\lab2\rstrig_behav.rpt
+Device-Specific Information:               e:\schemotech\lab8\rstrig_behav.rpt
 rstrig_behav
 
 ** BURIED LOGIC **
@@ -193,7 +193,7 @@ t = Turbo logic cell
 r = Fitter-inserted logic cell
 
 
-Device-Specific Information:               e:\schemotech\lab2\rstrig_behav.rpt
+Device-Specific Information:               e:\schemotech\lab8\rstrig_behav.rpt
 rstrig_behav
 
 ** LOGIC CELL INTERCONNECTIONS **
@@ -218,7 +218,7 @@ Pin
 - = The logic cell or pin is not an input to the logic cell (or LAB).
 
 
-Device-Specific Information:               e:\schemotech\lab2\rstrig_behav.rpt
+Device-Specific Information:               e:\schemotech\lab8\rstrig_behav.rpt
 rstrig_behav
 
 ** EQUATIONS **
@@ -247,7 +247,7 @@ _LC018   = LCELL( _EQ002 $  VCC);
 
 
 
-Project Information                        e:\schemotech\lab2\rstrig_behav.rpt
+Project Information                        e:\schemotech\lab8\rstrig_behav.rpt
 
 ** COMPILATION SETTINGS & TIMES **
 
@@ -336,4 +336,4 @@ Compilation Times
 Memory Allocated
 -----------------
 
-Peak memory allocated during compilation  = 4,491K
+Peak memory allocated during compilation  = 4,597K

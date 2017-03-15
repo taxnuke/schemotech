@@ -1,32 +1,26 @@
 NDB006
-The number of symbol table entries is: 5
-The length of the symbol table is: 101
+The number of symbol table entries is: 3
+The length of the symbol table is: 73
 
 Index Hierarchy Path
 ----- --------------
 !	&null_hpath&
-.	|my_nand:u1|
-;	|my_nand:u2|
-H	|rstrig_my_nand:u3|my_nand:u1|
-g	|rstrig_my_nand:u3|my_nand:u2|
+.	|RSTRIG_MY_NAND:9|my_nand:u1|
+L	|RSTRIG_MY_NAND:9|my_nand:u2|
 
-The number of name info structs is : 16
+The number of name info structs is : 12
 
 InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
 -------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
-"	L8ef	!	5	3	3	(	$	%	d	o
-#	L8ef	!	6	3	3	(	$	%	l	p
-$	Snh-	!	7	3	1	1	q	q
-%	[FjQ	!	8	3	2	$	%	2	1	1	qb	r
-&	IeEA	.	16	5	:5	"-
-'	IeEA	.	16	5	:6	".
-(	L8f/	.	9	9	1	%	:7	"/
-)	IeEA	;	16	5	:5	"9
-*	IeEA	;	16	5	:6	":
-+	IeEA	;	9	9	:7	";
-,	IeEA	H	16	5	:5	"U
--	IeEA	H	16	5	:6	"V
-.	IeEA	H	9	9	:7	"W
-/	IeEA	g	16	5	:5	"`
-0	IeEA	g	16	5	:6	"a
-1	IeEA	g	9	9	:7	"b
+"	IGdW	!	:3	x
+#	IGdW	!	:4	y
+$	Ky&|	!	2	&	'	D	o
+%	Ky&|	!	2	&	'	L	p
+&	Ky&}	!	1	'	Q	q
+'	Ky&}	!	1	&	QB	r
+(	IeEA	.	16	5	:5	"6
+)	IeEA	.	16	5	:6	"7
+*	IeEA	.	9	9	:7	"8
++	IeEA	L	16	5	:5	"B
+,	IeEA	L	16	5	:6	"C
+-	IeEA	L	9	9	:7	"D

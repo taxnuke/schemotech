@@ -12,8 +12,8 @@ InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainP
 -------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
 "	IGdW	!	:3	s
 #	IGdW	!	:4	t
-$	Ky&}	!	2	$	%	NQ	q
-%	IGdq	!	Q	r
+$	Ky&}	!	2	$	%	Q	q
+%	IGdq	!	QB	r
 &	Ky&|	!	2	$	%	R	p
 '	Ky&|	!	1	$	S	o
 (	IFkI	!	~3~1	s

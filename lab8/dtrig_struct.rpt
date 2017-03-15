@@ -1,8 +1,8 @@
-Project Information                        e:\schemotech\lab2\dtrig_struct.rpt
+Project Information                        e:\schemotech\lab8\dtrig_struct.rpt
 
 MAX+plus II Compiler Report File
 Version 9.01 07/30/98
-Compiled: 03/13/17 14:57:20
+Compiled: 03/15/17 16:41:52
 
 Copyright (C) 1988-1998 Altera Corporation
 Any megafunction design, and related net list (encrypted or decrypted),
@@ -44,7 +44,7 @@ User Pins:                 2        2        0
 
 
 
-Project Information                        e:\schemotech\lab2\dtrig_struct.rpt
+Project Information                        e:\schemotech\lab8\dtrig_struct.rpt
 
 ** FILE HIERARCHY **
 
@@ -57,7 +57,7 @@ Project Information                        e:\schemotech\lab2\dtrig_struct.rpt
 |rstrig_my_nand:u3|my_nand:u2|
 
 
-Device-Specific Information:               e:\schemotech\lab2\dtrig_struct.rpt
+Device-Specific Information:               e:\schemotech\lab8\dtrig_struct.rpt
 dtrig_struct
 
 ***** Logic for device 'dtrig_struct' compiled without errors.
@@ -111,7 +111,7 @@ RESERVED = Unused I/O pin, which MUST be left unconnected.
 
 
 
-Device-Specific Information:               e:\schemotech\lab2\dtrig_struct.rpt
+Device-Specific Information:               e:\schemotech\lab8\dtrig_struct.rpt
 dtrig_struct
 
 ** RESOURCE USAGE **
@@ -145,7 +145,7 @@ Synthesized logic cells:                         0/  32   (  0%)
 
 
 
-Device-Specific Information:               e:\schemotech\lab2\dtrig_struct.rpt
+Device-Specific Information:               e:\schemotech\lab8\dtrig_struct.rpt
 dtrig_struct
 
 ** INPUTS **
@@ -166,7 +166,7 @@ t = Turbo logic cell
 r = Fitter-inserted logic cell
 
 
-Device-Specific Information:               e:\schemotech\lab2\dtrig_struct.rpt
+Device-Specific Information:               e:\schemotech\lab8\dtrig_struct.rpt
 dtrig_struct
 
 ** OUTPUTS **
@@ -187,7 +187,7 @@ t = Turbo logic cell
 r = Fitter-inserted logic cell
 
 
-Device-Specific Information:               e:\schemotech\lab2\dtrig_struct.rpt
+Device-Specific Information:               e:\schemotech\lab8\dtrig_struct.rpt
 dtrig_struct
 
 ** BURIED LOGIC **
@@ -207,7 +207,7 @@ t = Turbo logic cell
 r = Fitter-inserted logic cell
 
 
-Device-Specific Information:               e:\schemotech\lab2\dtrig_struct.rpt
+Device-Specific Information:               e:\schemotech\lab8\dtrig_struct.rpt
 dtrig_struct
 
 ** LOGIC CELL INTERCONNECTIONS **
@@ -234,7 +234,7 @@ Pin
 - = The logic cell or pin is not an input to the logic cell (or LAB).
 
 
-Device-Specific Information:               e:\schemotech\lab2\dtrig_struct.rpt
+Device-Specific Information:               e:\schemotech\lab8\dtrig_struct.rpt
 dtrig_struct
 
 ** EQUATIONS **
@@ -269,7 +269,7 @@ _LC018   = LCELL( _EQ003 $  VCC);
 
 
 
-Project Information                        e:\schemotech\lab2\dtrig_struct.rpt
+Project Information                        e:\schemotech\lab8\dtrig_struct.rpt
 
 ** COMPILATION SETTINGS & TIMES **
 
@@ -344,10 +344,10 @@ VHDL Netlist Writer                       = off
 Compilation Times
 -----------------
 
-   Compiler Netlist Extractor             00:00:01
+   Compiler Netlist Extractor             00:00:00
    Database Builder                       00:00:00
    Logic Synthesizer                      00:00:00
-   Partitioner                            00:00:00
+   Partitioner                            00:00:01
    Fitter                                 00:00:00
    Timing SNF Extractor                   00:00:00
    Assembler                              00:00:00
@@ -358,4 +358,4 @@ Compilation Times
 Memory Allocated
 -----------------
 
-Peak memory allocated during compilation  = 4,423K
+Peak memory allocated during compilation  = 4,573K

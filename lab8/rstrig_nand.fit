@@ -1,6 +1,6 @@
 -- MAX+plus II Compiler Fit File      
 -- Version 9.01 07/30/98              
--- Compiled: 03/13/17 14:27:01        
+-- Compiled: 03/15/17 16:23:40        
 
 -- Copyright (C) 1988-1998 Altera Corporation
 -- Any megafunction design, and related net list (encrypted or decrypted),
@@ -29,8 +29,8 @@ BEGIN
 
     "R"                            : INPUT_PIN  = 4      ; -- LC1
     "S"                            : INPUT_PIN  = 5      ; -- LC2
-    "NQ"                           : OUTPUT_PIN = 41     ; -- LC17
-    "Q"                            : OUTPUT_PIN = 40     ; -- LC18
+    "QB"                           : OUTPUT_PIN = 40     ; -- LC18
+    "Q"                            : OUTPUT_PIN = 41     ; -- LC17
 
 END;
 

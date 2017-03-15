@@ -1,8 +1,8 @@
-Project Information                         e:\schemotech\lab2\rstrig_nand.rpt
+Project Information                         e:\schemotech\lab8\rstrig_nand.rpt
 
 MAX+plus II Compiler Report File
 Version 9.01 07/30/98
-Compiled: 03/13/17 14:27:01
+Compiled: 03/15/17 16:23:40
 
 Copyright (C) 1988-1998 Altera Corporation
 Any megafunction design, and related net list (encrypted or decrypted),
@@ -43,7 +43,7 @@ User Pins:                 2        2        0
 
 
 
-Device-Specific Information:                e:\schemotech\lab2\rstrig_nand.rpt
+Device-Specific Information:                e:\schemotech\lab8\rstrig_nand.rpt
 rstrig_nand
 
 ***** Logic for device 'rstrig_nand' compiled without errors.
@@ -63,8 +63,8 @@ Device Options:
               E                                
               R                                
               V        V  G  G  G  G  G        
-              E        C  N  N  N  N  N  N     
-              D  S  R  C  D  D  D  D  D  Q  Q  
+              E        C  N  N  N  N  N     Q  
+              D  S  R  C  D  D  D  D  D  Q  B  
             -----------------------------------_ 
           /   6  5  4  3  2  1 44 43 42 41 40   | 
 RESERVED |  7                                39 | RESERVED 
@@ -97,7 +97,7 @@ RESERVED = Unused I/O pin, which MUST be left unconnected.
 
 
 
-Device-Specific Information:                e:\schemotech\lab2\rstrig_nand.rpt
+Device-Specific Information:                e:\schemotech\lab8\rstrig_nand.rpt
 rstrig_nand
 
 ** RESOURCE USAGE **
@@ -131,7 +131,7 @@ Synthesized logic cells:                         1/  32   (  3%)
 
 
 
-Device-Specific Information:                e:\schemotech\lab2\rstrig_nand.rpt
+Device-Specific Information:                e:\schemotech\lab8\rstrig_nand.rpt
 rstrig_nand
 
 ** INPUTS **
@@ -152,7 +152,7 @@ t = Turbo logic cell
 r = Fitter-inserted logic cell
 
 
-Device-Specific Information:                e:\schemotech\lab2\rstrig_nand.rpt
+Device-Specific Information:                e:\schemotech\lab8\rstrig_nand.rpt
 rstrig_nand
 
 ** OUTPUTS **
@@ -160,8 +160,8 @@ rstrig_nand
                                          Shareable
                                          Expanders     Fan-In    Fan-Out
  Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
-  41     17    B     OUTPUT    s t        0      0   0    2    1    2    0  NQ
-  40     18    B     OUTPUT      t        0      0   0    1    1    0    0  Q
+  41     17    B     OUTPUT    s t        0      0   0    2    1    2    0  Q
+  40     18    B     OUTPUT      t        0      0   0    1    1    0    0  QB
 
 
 Code:
@@ -173,7 +173,7 @@ t = Turbo logic cell
 r = Fitter-inserted logic cell
 
 
-Device-Specific Information:                e:\schemotech\lab2\rstrig_nand.rpt
+Device-Specific Information:                e:\schemotech\lab8\rstrig_nand.rpt
 rstrig_nand
 
 ** LOGIC CELL INTERCONNECTIONS **
@@ -181,13 +181,13 @@ rstrig_nand
 Logic Array Block 'B':
 
              Logic cells placed in LAB 'B'
-        +--- LC17 NQ
-        | +- LC18 Q
+        +--- LC17 Q
+        | +- LC18 QB
         | | 
         | |   Other LABs fed by signals
         | |   that feed LAB 'B'
 LC      | | | A B |     Logic cells that feed LAB 'B':
-LC17 -> * * | - * | <-- NQ
+LC17 -> * * | - * | <-- Q
 
 Pin
 4    -> * * | - * | <-- R
@@ -198,7 +198,7 @@ Pin
 - = The logic cell or pin is not an input to the logic cell (or LAB).
 
 
-Device-Specific Information:                e:\schemotech\lab2\rstrig_nand.rpt
+Device-Specific Information:                e:\schemotech\lab8\rstrig_nand.rpt
 rstrig_nand
 
 ** EQUATIONS **
@@ -206,15 +206,15 @@ rstrig_nand
 R        : INPUT;
 S        : INPUT;
 
--- Node name is 'NQ' = '~3~1' 
--- Equation name is 'NQ', location is LC017, type is output.
- NQ      = LCELL( _EQ001 $ !S);
-  _EQ001 =  NQ &  R &  S;
+-- Node name is 'Q' = '~3~1' 
+-- Equation name is 'Q', location is LC017, type is output.
+ Q       = LCELL( _EQ001 $ !S);
+  _EQ001 =  Q &  R &  S;
 
--- Node name is 'Q' 
--- Equation name is 'Q', location is LC018, type is output.
- Q       = LCELL( _EQ002 $  VCC);
-  _EQ002 =  NQ &  R;
+-- Node name is 'QB' 
+-- Equation name is 'QB', location is LC018, type is output.
+ QB      = LCELL( _EQ002 $  VCC);
+  _EQ002 =  Q &  R;
 
 
 
@@ -224,7 +224,7 @@ S        : INPUT;
 
 
 
-Project Information                         e:\schemotech\lab2\rstrig_nand.rpt
+Project Information                         e:\schemotech\lab8\rstrig_nand.rpt
 
 ** COMPILATION SETTINGS & TIMES **
 
@@ -304,13 +304,13 @@ Compilation Times
    Logic Synthesizer                      00:00:00
    Partitioner                            00:00:00
    Fitter                                 00:00:00
-   Timing SNF Extractor                   00:00:00
+   Timing SNF Extractor                   00:00:01
    Assembler                              00:00:00
    --------------------------             --------
-   Total Time                             00:00:00
+   Total Time                             00:00:01
 
 
 Memory Allocated
 -----------------
 
-Peak memory allocated during compilation  = 3,985K
+Peak memory allocated during compilation  = 2,663K

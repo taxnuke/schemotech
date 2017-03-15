@@ -24,32 +24,32 @@ HIF003
 --
 FILES
 {
-	dtrig.vhd
+	rstrig_my_nand.vhd
 	{
-		dtrig [] [U7449008.DLS,U1147235.DLS]
+		rstrig_my_nand [] [U7449008.DLS,U1147235.DLS]
 		{
-			0 [] [];
-		}
-	}
-	rstrig_nand.gdf
-	{
-		rstrig_nand [] []
-		{
-			3 [] [];
+			2 [] [];
 		}
 	}
 	my_nand.vhd
 	{
 		my_nand [] [U7449008.DLS,U1147235.DLS]
 		{
-			2 [] [];
+			3 [] [];
 		}
 	}
-	rstrig_my_nand.vhd
+	rstrig_nand.gdf
 	{
-		rstrig_my_nand [] [U7449008.DLS,U1147235.DLS]
+		rstrig_nand [] []
 		{
 			1 [] [];
+		}
+	}
+	dtrig.gdf
+	{
+		dtrig [] []
+		{
+			0 [] [];
 		}
 	}
 }
@@ -57,12 +57,10 @@ TREE
 {
 	dtrig::(0,0):(0): dtrig.gdf
 	{
-		my_nand:2:(35,6):(7,u1): my_nand.vhd;
-		my_nand:2:(37,6):(8,u2): my_nand.vhd;
-		rstrig_my_nand:1:(39,6):(9,u3): rstrig_my_nand.vhd
+		rstrig_my_nand::(0,0):(9): rstrig_my_nand.vhd
 		{
-			my_nand:2:(22,10):(5,u1): my_nand.vhd;
-			my_nand:2:(24,10):(6,u2): my_nand.vhd;
+			my_nand:3:(22,10):(5,u1): my_nand.vhd;
+			my_nand:3:(24,10):(6,u2): my_nand.vhd;
 		}
 	}
 }

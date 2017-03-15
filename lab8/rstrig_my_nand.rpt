@@ -1,8 +1,8 @@
-Project Information                      e:\schemotech\lab2\rstrig_my_nand.rpt
+Project Information                      e:\schemotech\lab8\rstrig_my_nand.rpt
 
 MAX+plus II Compiler Report File
 Version 9.01 07/30/98
-Compiled: 03/13/17 14:31:12
+Compiled: 03/15/17 16:30:41
 
 Copyright (C) 1988-1998 Altera Corporation
 Any megafunction design, and related net list (encrypted or decrypted),
@@ -44,14 +44,14 @@ User Pins:                 2      0      2
 
 
 
-Project Information                      e:\schemotech\lab2\rstrig_my_nand.rpt
+Project Information                      e:\schemotech\lab8\rstrig_my_nand.rpt
 
 ** PROJECT TIMING MESSAGES **
 
 Warning: Timing characteristics of device EPF10K30ETC144-1 are preliminary
 
 
-Project Information                      e:\schemotech\lab2\rstrig_my_nand.rpt
+Project Information                      e:\schemotech\lab8\rstrig_my_nand.rpt
 
 ** FILE HIERARCHY **
 
@@ -61,7 +61,7 @@ Project Information                      e:\schemotech\lab2\rstrig_my_nand.rpt
 |my_nand:u2|
 
 
-Device-Specific Information:             e:\schemotech\lab2\rstrig_my_nand.rpt
+Device-Specific Information:             e:\schemotech\lab8\rstrig_my_nand.rpt
 rstrig_my_nand
 
 ***** Logic for device 'rstrig_my_nand' compiled without errors.
@@ -171,7 +171,7 @@ PDn = Power Down pin.
 $ = Pin has PCI I/O option enabled. Pin is neither '5.0 V'- nor '3.3 V'-tolerant. 
 
 
-Device-Specific Information:             e:\schemotech\lab2\rstrig_my_nand.rpt
+Device-Specific Information:             e:\schemotech\lab8\rstrig_my_nand.rpt
 rstrig_my_nand
 
 ** RESOURCE USAGE **
@@ -229,7 +229,7 @@ Total:   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  
 
 
 
-Device-Specific Information:             e:\schemotech\lab2\rstrig_my_nand.rpt
+Device-Specific Information:             e:\schemotech\lab8\rstrig_my_nand.rpt
 rstrig_my_nand
 
 ** INPUTS **
@@ -254,7 +254,7 @@ r = Fitter-inserted logic cell
 & = Uses single-pin Output Enable
 
 
-Device-Specific Information:             e:\schemotech\lab2\rstrig_my_nand.rpt
+Device-Specific Information:             e:\schemotech\lab8\rstrig_my_nand.rpt
 rstrig_my_nand
 
 ** OUTPUTS **
@@ -277,7 +277,7 @@ r = Fitter-inserted logic cell
 & = Uses single-pin Output Enable
 
 
-Device-Specific Information:             e:\schemotech\lab2\rstrig_my_nand.rpt
+Device-Specific Information:             e:\schemotech\lab8\rstrig_my_nand.rpt
 rstrig_my_nand
 
 ** BURIED LOGIC **
@@ -299,7 +299,7 @@ r = Fitter-inserted logic cell
 p = Packed register
 
 
-Device-Specific Information:             e:\schemotech\lab2\rstrig_my_nand.rpt
+Device-Specific Information:             e:\schemotech\lab8\rstrig_my_nand.rpt
 rstrig_my_nand
 
 ** FASTTRACK INTERCONNECT UTILIZATION **
@@ -360,7 +360,7 @@ Column  Interconnect    Input Pins     Output Pins     Bidir Pins
 EA:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
 
 
-Device-Specific Information:             e:\schemotech\lab2\rstrig_my_nand.rpt
+Device-Specific Information:             e:\schemotech\lab8\rstrig_my_nand.rpt
 rstrig_my_nand
 
 ** EQUATIONS **
@@ -392,7 +392,7 @@ _LC5_A19~NOT = LCELL( _EQ002);
 
 
 
-Project Information                      e:\schemotech\lab2\rstrig_my_nand.rpt
+Project Information                      e:\schemotech\lab8\rstrig_my_nand.rpt
 
 ** COMPILATION SETTINGS & TIMES **
 
@@ -479,4 +479,4 @@ Compilation Times
 Memory Allocated
 -----------------
 
-Peak memory allocated during compilation  = 20,851K
+Peak memory allocated during compilation  = 20,919K

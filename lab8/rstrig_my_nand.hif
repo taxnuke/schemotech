@@ -26,14 +26,14 @@ FILES
 {
 	my_nand.vhd
 	{
-		my_nand [] [U1147235.DLS,U7449008.DLS]
+		my_nand [] [U7449008.DLS,U1147235.DLS]
 		{
 			1 [] [];
 		}
 	}
 	rstrig_my_nand.vhd
 	{
-		rstrig_my_nand [] [U1147235.DLS,U7449008.DLS]
+		rstrig_my_nand [] [U7449008.DLS,U1147235.DLS]
 		{
 			0 [] [];
 		}

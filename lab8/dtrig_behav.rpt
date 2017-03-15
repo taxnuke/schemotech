@@ -1,8 +1,8 @@
-Project Information                         e:\schemotech\lab2\dtrig_behav.rpt
+Project Information                         e:\schemotech\lab8\dtrig_behav.rpt
 
 MAX+plus II Compiler Report File
 Version 9.01 07/30/98
-Compiled: 03/13/17 14:58:58
+Compiled: 03/15/17 16:42:49
 
 Copyright (C) 1988-1998 Altera Corporation
 Any megafunction design, and related net list (encrypted or decrypted),
@@ -44,7 +44,7 @@ User Pins:                 2        0        2
 
 
 
-Device-Specific Information:                e:\schemotech\lab2\dtrig_behav.rpt
+Device-Specific Information:                e:\schemotech\lab8\dtrig_behav.rpt
 dtrig_behav
 
 ***** Logic for device 'dtrig_behav' compiled without errors.
@@ -98,7 +98,7 @@ RESERVED = Unused I/O pin, which MUST be left unconnected.
 
 
 
-Device-Specific Information:                e:\schemotech\lab2\dtrig_behav.rpt
+Device-Specific Information:                e:\schemotech\lab8\dtrig_behav.rpt
 dtrig_behav
 
 ** RESOURCE USAGE **
@@ -132,7 +132,7 @@ Synthesized logic cells:                         0/  32   (  0%)
 
 
 
-Device-Specific Information:                e:\schemotech\lab2\dtrig_behav.rpt
+Device-Specific Information:                e:\schemotech\lab8\dtrig_behav.rpt
 dtrig_behav
 
 ** INPUTS **
@@ -155,7 +155,7 @@ t = Turbo logic cell
 r = Fitter-inserted logic cell
 
 
-Device-Specific Information:                e:\schemotech\lab2\dtrig_behav.rpt
+Device-Specific Information:                e:\schemotech\lab8\dtrig_behav.rpt
 dtrig_behav
 
 ** OUTPUTS **
@@ -176,7 +176,7 @@ t = Turbo logic cell
 r = Fitter-inserted logic cell
 
 
-Device-Specific Information:                e:\schemotech\lab2\dtrig_behav.rpt
+Device-Specific Information:                e:\schemotech\lab8\dtrig_behav.rpt
 dtrig_behav
 
 ** LOGIC CELL INTERCONNECTIONS **
@@ -200,7 +200,7 @@ Pin
 - = The logic cell or pin is not an input to the logic cell (or LAB).
 
 
-Device-Specific Information:                e:\schemotech\lab2\dtrig_behav.rpt
+Device-Specific Information:                e:\schemotech\lab8\dtrig_behav.rpt
 dtrig_behav
 
 ** EQUATIONS **
@@ -227,7 +227,7 @@ _LC018   = LCELL( _EQ001 $ !d);
 
 
 
-Project Information                         e:\schemotech\lab2\dtrig_behav.rpt
+Project Information                         e:\schemotech\lab8\dtrig_behav.rpt
 
 ** COMPILATION SETTINGS & TIMES **
 
@@ -306,14 +306,14 @@ Compilation Times
    Database Builder                       00:00:00
    Logic Synthesizer                      00:00:00
    Partitioner                            00:00:00
-   Fitter                                 00:00:00
+   Fitter                                 00:00:01
    Timing SNF Extractor                   00:00:00
    Assembler                              00:00:00
    --------------------------             --------
-   Total Time                             00:00:00
+   Total Time                             00:00:01
 
 
 Memory Allocated
 -----------------
 
-Peak memory allocated during compilation  = 4,446K
+Peak memory allocated during compilation  = 4,576K

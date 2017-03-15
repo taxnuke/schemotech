@@ -1,8 +1,8 @@
-Project Information                               e:\schemotech\lab2\dtrig.rpt
+Project Information                               e:\schemotech\lab8\dtrig.rpt
 
 MAX+plus II Compiler Report File
 Version 9.01 07/30/98
-Compiled: 03/13/17 14:54:25
+Compiled: 03/15/17 16:40:29
 
 Copyright (C) 1988-1998 Altera Corporation
 Any megafunction design, and related net list (encrypted or decrypted),
@@ -29,7 +29,6 @@ needed under any third party's intellectual property, are provided herein.
 ***** Project compilation was successful
 
 
-DTRIG
 
 
 ** DEVICE SUMMARY **
@@ -37,26 +36,24 @@ DTRIG
 Chip/                     Input   Output   Bidir         Shareable
 POF       Device          Pins    Pins     Pins     LCs  Expanders  % Utilized
 
-dtrig     EPM7032LC44-6    2        2        0      3       3           9  %
+dtrig     EPM7032LC44-6    2        2        0      2       0           6  %
 
 User Pins:                 2        2        0  
 
 
 
-Project Information                               e:\schemotech\lab2\dtrig.rpt
+Project Information                               e:\schemotech\lab8\dtrig.rpt
 
 ** FILE HIERARCHY **
 
 
 
-|my_nand:u1|
-|my_nand:u2|
-|rstrig_my_nand:u3|
-|rstrig_my_nand:u3|my_nand:u1|
-|rstrig_my_nand:u3|my_nand:u2|
+|rstrig_my_nand:9|
+|rstrig_my_nand:9|my_nand:u1|
+|rstrig_my_nand:9|my_nand:u2|
 
 
-Device-Specific Information:                      e:\schemotech\lab2\dtrig.rpt
+Device-Specific Information:                      e:\schemotech\lab8\dtrig.rpt
 dtrig
 
 ***** Logic for device 'dtrig' compiled without errors.
@@ -70,17 +67,17 @@ Device Options:
     Turbo Bit                                    = ON
     Security Bit                                 = OFF
 
-              R                             R  
-              E                             E  
-              S                             S  
-              E                             E  
-              R                             R  
-              V        V  G  G  G  G  G     V  
-              E        C  N  N  N  N  N  q  E  
-              D  l  d  C  D  D  D  D  D  b  D  
+              R                                
+              E                                
+              S                                
+              E                                
+              R                                
+              V        V  G  G  G  G  G        
+              E        C  N  N  N  N  N     Q  
+              D  L  D  C  D  D  D  D  D  Q  B  
             -----------------------------------_ 
           /   6  5  4  3  2  1 44 43 42 41 40   | 
-RESERVED |  7                                39 | q 
+RESERVED |  7                                39 | RESERVED 
 RESERVED |  8                                38 | RESERVED 
 RESERVED |  9                                37 | RESERVED 
      GND | 10                                36 | RESERVED 
@@ -110,7 +107,7 @@ RESERVED = Unused I/O pin, which MUST be left unconnected.
 
 
 
-Device-Specific Information:                      e:\schemotech\lab2\dtrig.rpt
+Device-Specific Information:                      e:\schemotech\lab8\dtrig.rpt
 dtrig
 
 ** RESOURCE USAGE **
@@ -119,32 +116,32 @@ dtrig
 Logic Array Block     Logic Cells   I/O Pins    Expanders   Interconnect
 
 A:     LC1 - LC16     0/16(  0%)   2/16( 12%)   0/16(  0%)   0/36(  0%) 
-B:    LC17 - LC32     3/16( 18%)   2/16( 12%)   3/16( 18%)   4/36( 11%) 
+B:    LC17 - LC32     2/16( 12%)   2/16( 12%)   0/16(  0%)   4/36( 11%) 
 
 
 Total dedicated input pins used:                 0/4      (  0%)
 Total I/O pins used:                             4/32     ( 12%)
-Total logic cells used:                          3/32     (  9%)
-Total shareable expanders used:                  3/32     (  9%)
-Total Turbo logic cells used:                    3/32     (  9%)
+Total logic cells used:                          2/32     (  6%)
+Total shareable expanders used:                  0/32     (  0%)
+Total Turbo logic cells used:                    2/32     (  6%)
 Total shareable expanders not available (n/a):   0/32     (  0%)
 Average fan-in:                                  3.00
-Total fan-in:                                     9
+Total fan-in:                                     6
 
 Total input pins required:                       2
 Total output pins required:                      2
 Total bidirectional pins required:               0
-Total logic cells required:                      3
+Total logic cells required:                      2
 Total flipflops required:                        0
-Total product terms required:                    6
+Total product terms required:                    4
 Total logic cells lending parallel expanders:    0
-Total shareable expanders in database:           3
+Total shareable expanders in database:           0
 
 Synthesized logic cells:                         0/  32   (  0%)
 
 
 
-Device-Specific Information:                      e:\schemotech\lab2\dtrig.rpt
+Device-Specific Information:                      e:\schemotech\lab8\dtrig.rpt
 dtrig
 
 ** INPUTS **
@@ -152,8 +149,8 @@ dtrig
                                          Shareable
                                          Expanders     Fan-In    Fan-Out
  Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
-   4    (1)  (A)      INPUT               0      0   0    0    0    2    1  d
-   5    (2)  (A)      INPUT               0      0   0    0    0    2    1  l
+   4    (1)  (A)      INPUT               0      0   0    0    0    2    0  D
+   5    (2)  (A)      INPUT               0      0   0    0    0    2    0  L
 
 
 Code:
@@ -165,7 +162,7 @@ t = Turbo logic cell
 r = Fitter-inserted logic cell
 
 
-Device-Specific Information:                      e:\schemotech\lab2\dtrig.rpt
+Device-Specific Information:                      e:\schemotech\lab8\dtrig.rpt
 dtrig
 
 ** OUTPUTS **
@@ -173,8 +170,8 @@ dtrig
                                          Shareable
                                          Expanders     Fan-In    Fan-Out
  Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
-  39     19    B     OUTPUT      t        1      1   0    2    1    0    0  q
-  41     17    B     OUTPUT      t        3      1   0    2    2    2    0  qb
+  41     17    B     OUTPUT      t        0      0   0    2    1    1    0  Q
+  40     18    B     OUTPUT      t        0      0   0    2    1    1    0  QB
 
 
 Code:
@@ -186,79 +183,49 @@ t = Turbo logic cell
 r = Fitter-inserted logic cell
 
 
-Device-Specific Information:                      e:\schemotech\lab2\dtrig.rpt
-dtrig
-
-** BURIED LOGIC **
-
-                                         Shareable
-                                         Expanders     Fan-In    Fan-Out
- Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
- (40)    18    B       SOFT      t        0      0   0    2    0    1    0  |my_nand:u1|:7
-
-
-Code:
-
-s = Synthesized pin or logic cell
-t = Turbo logic cell
-+ = Synchronous flipflop
-! = NOT gate push-back
-r = Fitter-inserted logic cell
-
-
-Device-Specific Information:                      e:\schemotech\lab2\dtrig.rpt
+Device-Specific Information:                      e:\schemotech\lab8\dtrig.rpt
 dtrig
 
 ** LOGIC CELL INTERCONNECTIONS **
 
 Logic Array Block 'B':
 
-               Logic cells placed in LAB 'B'
-        +----- LC18 |my_nand:u1|:7
-        | +--- LC19 q
-        | | +- LC17 qb
-        | | | 
-        | | |   Other LABs fed by signals
-        | | |   that feed LAB 'B'
-LC      | | | | A B |     Logic cells that feed LAB 'B':
-LC18 -> - - * | - * | <-- |my_nand:u1|:7
-LC17 -> - * * | - * | <-- qb
+             Logic cells placed in LAB 'B'
+        +--- LC17 Q
+        | +- LC18 QB
+        | | 
+        | |   Other LABs fed by signals
+        | |   that feed LAB 'B'
+LC      | | | A B |     Logic cells that feed LAB 'B':
+LC17 -> - * | - * | <-- Q
+LC18 -> * - | - * | <-- QB
 
 Pin
-4    -> * * * | - * | <-- d
-5    -> * * * | - * | <-- l
+4    -> * * | - * | <-- D
+5    -> * * | - * | <-- L
 
 
 * = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
 - = The logic cell or pin is not an input to the logic cell (or LAB).
 
 
-Device-Specific Information:                      e:\schemotech\lab2\dtrig.rpt
+Device-Specific Information:                      e:\schemotech\lab8\dtrig.rpt
 dtrig
 
 ** EQUATIONS **
 
-d        : INPUT;
-l        : INPUT;
+D        : INPUT;
+L        : INPUT;
 
--- Node name is 'q' 
--- Equation name is 'q', location is LC019, type is output.
- q       = LCELL( _EQ001 $  VCC);
-  _EQ001 =  qb &  _X001;
-  _X001  = EXP( d &  l);
+-- Node name is 'Q' 
+-- Equation name is 'Q', location is LC017, type is output.
+ Q       = LCELL( _EQ001 $ !QB);
+  _EQ001 =  D &  L &  QB;
 
--- Node name is 'qb' 
--- Equation name is 'qb', location is LC017, type is output.
- qb      = LCELL( _EQ002 $  VCC);
-  _EQ002 =  _X002 &  _X003;
-  _X002  = EXP( l &  _LC018);
-  _X003  = EXP( qb &  _X001);
-  _X001  = EXP( d &  l);
-
--- Node name is '|my_nand:u1|:7' 
--- Equation name is '_LC018', type is buried 
-_LC018   = LCELL( _EQ003 $  VCC);
-  _EQ003 =  d &  l;
+-- Node name is 'QB' 
+-- Equation name is 'QB', location is LC018, type is output.
+ QB      = LCELL( _EQ002 $ !Q);
+  _EQ002 = !D &  L &  Q;
 
 
 
@@ -268,7 +235,7 @@ _LC018   = LCELL( _EQ003 $  VCC);
 
 
 
-Project Information                               e:\schemotech\lab2\dtrig.rpt
+Project Information                               e:\schemotech\lab8\dtrig.rpt
 
 ** COMPILATION SETTINGS & TIMES **
 
@@ -357,4 +324,4 @@ Compilation Times
 Memory Allocated
 -----------------
 
-Peak memory allocated during compilation  = 4,480K
+Peak memory allocated during compilation  = 4,112K

@@ -24,18 +24,18 @@ HIF003
 --
 FILES
 {
+	my_nand.vhd
+	{
+		my_nand [] [U1147235.DLS,U7449008.DLS]
+		{
+			1 [] [];
+		}
+	}
 	rstrig_my_nand.vhd
 	{
 		rstrig_my_nand [] [U7449008.DLS,U1147235.DLS]
 		{
 			2 [] [];
-		}
-	}
-	my_nand.vhd
-	{
-		my_nand [] [U7449008.DLS,U1147235.DLS]
-		{
-			1 [] [];
 		}
 	}
 	dtrig_struct.vhd
@@ -50,9 +50,9 @@ TREE
 {
 	dtrig_struct::(0,0):(0): dtrig_struct.vhd
 	{
-		my_nand:1:(35,6):(7,u1): my_nand.vhd;
-		my_nand:1:(37,6):(8,u2): my_nand.vhd;
-		rstrig_my_nand:2:(39,6):(9,u3): rstrig_my_nand.vhd
+		my_nand:1:(35,10):(7,u1): my_nand.vhd;
+		my_nand:1:(37,10):(8,u2): my_nand.vhd;
+		rstrig_my_nand:2:(39,10):(9,u3): rstrig_my_nand.vhd
 		{
 			my_nand:1:(22,10):(5,u1): my_nand.vhd;
 			my_nand:1:(24,10):(6,u2): my_nand.vhd;
