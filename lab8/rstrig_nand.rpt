@@ -2,7 +2,7 @@ Project Information                         e:\schemotech\lab8\rstrig_nand.rpt
 
 MAX+plus II Compiler Report File
 Version 9.01 07/30/98
-Compiled: 03/15/17 16:23:40
+Compiled: 03/15/17 20:02:11
 
 Copyright (C) 1988-1998 Altera Corporation
 Any megafunction design, and related net list (encrypted or decrypted),
@@ -304,13 +304,13 @@ Compilation Times
    Logic Synthesizer                      00:00:00
    Partitioner                            00:00:00
    Fitter                                 00:00:00
-   Timing SNF Extractor                   00:00:01
+   Timing SNF Extractor                   00:00:00
    Assembler                              00:00:00
    --------------------------             --------
-   Total Time                             00:00:01
+   Total Time                             00:00:00
 
 
 Memory Allocated
 -----------------
 
-Peak memory allocated during compilation  = 2,663K
+Peak memory allocated during compilation  = 4,100K

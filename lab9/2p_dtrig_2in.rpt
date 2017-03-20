@@ -1,8 +1,8 @@
-Project Information                        e:\schemotech\lab9\2p_dtrig_1in.rpt
+Project Information                        e:\schemotech\lab9\2p_dtrig_2in.rpt
 
 MAX+plus II Compiler Report File
 Version 9.01 07/30/98
-Compiled: 03/20/17 15:51:53
+Compiled: 03/20/17 16:08:21
 
 Copyright (C) 1988-1998 Altera Corporation
 Any megafunction design, and related net list (encrypted or decrypted),
@@ -36,26 +36,37 @@ needed under any third party's intellectual property, are provided herein.
 Chip/                     Input   Output   Bidir         Shareable
 POF       Device          Pins    Pins     Pins     LCs  Expanders  % Utilized
 
-2p_dtrig_1in
-      EPM7032LC44-6        3        2        0      4       0           12 %
+2p_dtrig_2in
+      EPM7032LC44-6        4        2        0      4       0           12 %
 
-User Pins:                 3        2        0  
+User Pins:                 4        2        0  
 
 
 
-Project Information                        e:\schemotech\lab9\2p_dtrig_1in.rpt
+Project Information                        e:\schemotech\lab9\2p_dtrig_2in.rpt
 
 ** AUTO GLOBAL SIGNALS **
 
 
 
+INFO: Signal 'C2' chosen for auto global Clock
 INFO: Signal 'R' chosen for auto global Clear
 
 
-Device-Specific Information:               e:\schemotech\lab9\2p_dtrig_1in.rpt
-2p_dtrig_1in
+Project Information                        e:\schemotech\lab9\2p_dtrig_2in.rpt
 
-***** Logic for device '2p_dtrig_1in' compiled without errors.
+** FILE HIERARCHY **
+
+
+
+|dtrig_2in:10|
+|dtrig_2in:11|
+
+
+Device-Specific Information:               e:\schemotech\lab9\2p_dtrig_2in.rpt
+2p_dtrig_2in
+
+***** Logic for device '2p_dtrig_2in' compiled without errors.
 
 
 
@@ -66,18 +77,18 @@ Device Options:
     Turbo Bit                                    = ON
     Security Bit                                 = OFF
 
-              R                                
-              E                                
-              S                                
-              E                                
-              R                                
-              V        V  G     G  G  G        
-              E        C  N     N  N  N  Q  Q  
-              D  D  C  C  D  R  D  D  D  1  2  
+              R                             R  
+              E                             E  
+              S                             S  
+              E                             E  
+              R                             R  
+              V        V  G     G     G     V  
+              E     C  C  N     N  C  N  Q  E  
+              D  D  1  C  D  R  D  2  D  1  D  
             -----------------------------------_ 
           /   6  5  4  3  2  1 44 43 42 41 40   | 
 RESERVED |  7                                39 | RESERVED 
-RESERVED |  8                                38 | RESERVED 
+RESERVED |  8                                38 | Q2 
 RESERVED |  9                                37 | RESERVED 
      GND | 10                                36 | RESERVED 
 RESERVED | 11                                35 | VCC 
@@ -106,8 +117,8 @@ RESERVED = Unused I/O pin, which MUST be left unconnected.
 
 
 
-Device-Specific Information:               e:\schemotech\lab9\2p_dtrig_1in.rpt
-2p_dtrig_1in
+Device-Specific Information:               e:\schemotech\lab9\2p_dtrig_2in.rpt
+2p_dtrig_2in
 
 ** RESOURCE USAGE **
 
@@ -118,7 +129,7 @@ A:     LC1 - LC16     0/16(  0%)   2/16( 12%)   0/16(  0%)   0/36(  0%)
 B:    LC17 - LC32     4/16( 25%)   2/16( 12%)   0/16(  0%)   5/36( 13%) 
 
 
-Total dedicated input pins used:                 1/4      ( 25%)
+Total dedicated input pins used:                 2/4      ( 50%)
 Total I/O pins used:                             4/32     ( 12%)
 Total logic cells used:                          4/32     ( 12%)
 Total shareable expanders used:                  0/32     (  0%)
@@ -127,12 +138,12 @@ Total shareable expanders not available (n/a):   0/32     (  0%)
 Average fan-in:                                  3.00
 Total fan-in:                                    12
 
-Total input pins required:                       3
+Total input pins required:                       4
 Total output pins required:                      2
 Total bidirectional pins required:               0
 Total logic cells required:                      4
 Total flipflops required:                        4
-Total product terms required:                    8
+Total product terms required:                    6
 Total logic cells lending parallel expanders:    0
 Total shareable expanders in database:           0
 
@@ -140,15 +151,16 @@ Synthesized logic cells:                         0/  32   (  0%)
 
 
 
-Device-Specific Information:               e:\schemotech\lab9\2p_dtrig_1in.rpt
-2p_dtrig_1in
+Device-Specific Information:               e:\schemotech\lab9\2p_dtrig_2in.rpt
+2p_dtrig_2in
 
 ** INPUTS **
 
                                          Shareable
                                          Expanders     Fan-In    Fan-Out
  Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
-   4    (1)  (A)      INPUT               0      0   0    0    0    2    2  C
+   4    (1)  (A)      INPUT               0      0   0    0    0    0    2  C1
+  43      -   -       INPUT  G            0      0   0    0    0    0    0  C2
    5    (2)  (A)      INPUT               0      0   0    0    0    0    1  D
    1      -   -       INPUT  G            0      0   0    0    0    0    0  R
 
@@ -167,16 +179,16 @@ Sections of this Report File for information on which signals' fan-outs are used
 Clock, Clear, Preset, Output Enable, and synchronous Load signals.
 
 
-Device-Specific Information:               e:\schemotech\lab9\2p_dtrig_1in.rpt
-2p_dtrig_1in
+Device-Specific Information:               e:\schemotech\lab9\2p_dtrig_2in.rpt
+2p_dtrig_2in
 
 ** OUTPUTS **
 
                                          Shareable
                                          Expanders     Fan-In    Fan-Out
  Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
-  41     17    B         FF      t        0      0   0    1    1    0    1  Q1
-  40     18    B         FF      t        0      0   0    1    1    0    0  Q2
+  41     17    B         FF   +  t        0      0   0    0    1    0    1  Q1 (|dtrig_2in:10|:6)
+  38     20    B         FF   +  t        0      0   0    0    1    0    0  Q2 (|dtrig_2in:11|:6)
 
 
 Code:
@@ -188,16 +200,16 @@ t = Turbo logic cell
 r = Fitter-inserted logic cell
 
 
-Device-Specific Information:               e:\schemotech\lab9\2p_dtrig_1in.rpt
-2p_dtrig_1in
+Device-Specific Information:               e:\schemotech\lab9\2p_dtrig_2in.rpt
+2p_dtrig_2in
 
 ** BURIED LOGIC **
 
                                          Shareable
                                          Expanders     Fan-In    Fan-Out
  Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
- (39)    19    B       DFFE      t        0      0   0    2    0    1    0  :4
- (38)    20    B       DFFE      t        0      0   0    1    1    1    0  :6
+ (40)    18    B       DFFE      t        0      0   0    2    0    1    0  |dtrig_2in:10|:5
+ (39)    19    B       DFFE      t        0      0   0    1    1    1    0  |dtrig_2in:11|:5
 
 
 Code:
@@ -209,29 +221,30 @@ t = Turbo logic cell
 r = Fitter-inserted logic cell
 
 
-Device-Specific Information:               e:\schemotech\lab9\2p_dtrig_1in.rpt
-2p_dtrig_1in
+Device-Specific Information:               e:\schemotech\lab9\2p_dtrig_2in.rpt
+2p_dtrig_2in
 
 ** LOGIC CELL INTERCONNECTIONS **
 
 Logic Array Block 'B':
 
                  Logic cells placed in LAB 'B'
-        +------- LC17 Q1
-        | +----- LC18 Q2
-        | | +--- LC19 :4
-        | | | +- LC20 :6
+        +------- LC18 |dtrig_2in:10|:5
+        | +----- LC19 |dtrig_2in:11|:5
+        | | +--- LC17 Q1
+        | | | +- LC20 Q2
         | | | | 
         | | | |   Other LABs fed by signals
         | | | |   that feed LAB 'B'
 LC      | | | | | A B |     Logic cells that feed LAB 'B':
-LC17 -> - - - * | - * | <-- Q1
-LC19 -> * - - - | - * | <-- :4
-LC20 -> - * - - | - * | <-- :6
+LC18 -> - - * - | - * | <-- |dtrig_2in:10|:5
+LC19 -> - - - * | - * | <-- |dtrig_2in:11|:5
+LC17 -> - * - - | - * | <-- Q1
 
 Pin
-4    -> * * * * | - * | <-- C
-5    -> - - * - | - * | <-- D
+4    -> * * - - | - * | <-- C1
+43   -> - - - - | - - | <-- C2
+5    -> * - - - | - * | <-- D
 1    -> - - - - | - - | <-- R
 
 
@@ -239,30 +252,31 @@ Pin
 - = The logic cell or pin is not an input to the logic cell (or LAB).
 
 
-Device-Specific Information:               e:\schemotech\lab9\2p_dtrig_1in.rpt
-2p_dtrig_1in
+Device-Specific Information:               e:\schemotech\lab9\2p_dtrig_2in.rpt
+2p_dtrig_2in
 
 ** EQUATIONS **
 
-C        : INPUT;
+C1       : INPUT;
+C2       : INPUT;
 D        : INPUT;
 R        : INPUT;
 
--- Node name is 'Q1' = ':5' 
+-- Node name is 'Q1' = '|dtrig_2in:10|Q' 
 -- Equation name is 'Q1', type is output 
- Q1      = DFFE( _LC019 $  GND, !C, GLOBAL( R),  VCC,  VCC);
+ Q1      = DFFE( _LC018 $  GND, GLOBAL( C2), GLOBAL( R),  VCC,  VCC);
 
--- Node name is 'Q2' = ':7' 
+-- Node name is 'Q2' = '|dtrig_2in:11|Q' 
 -- Equation name is 'Q2', type is output 
- Q2      = DFFE( _LC020 $  GND, !C, GLOBAL( R),  VCC,  VCC);
+ Q2      = DFFE( _LC019 $  GND, GLOBAL( C2), GLOBAL( R),  VCC,  VCC);
 
--- Node name is ':4' 
+-- Node name is '|dtrig_2in:10|:5' 
+-- Equation name is '_LC018', type is buried 
+_LC018   = DFFE( D $  GND,  C1, GLOBAL( R),  VCC,  VCC);
+
+-- Node name is '|dtrig_2in:11|:5' 
 -- Equation name is '_LC019', type is buried 
-_LC019   = DFFE( D $  GND,  C, GLOBAL( R),  VCC,  VCC);
-
--- Node name is ':6' 
--- Equation name is '_LC020', type is buried 
-_LC020   = DFFE( Q1 $  GND,  C, GLOBAL( R),  VCC,  VCC);
+_LC019   = DFFE( Q1 $  GND,  C1, GLOBAL( R),  VCC,  VCC);
 
 
 
@@ -272,7 +286,7 @@ _LC020   = DFFE( Q1 $  GND,  C, GLOBAL( R),  VCC,  VCC);
 
 
 
-Project Information                        e:\schemotech\lab9\2p_dtrig_1in.rpt
+Project Information                        e:\schemotech\lab9\2p_dtrig_2in.rpt
 
 ** COMPILATION SETTINGS & TIMES **
 
@@ -361,4 +375,4 @@ Compilation Times
 Memory Allocated
 -----------------
 
-Peak memory allocated during compilation  = 4,124K
+Peak memory allocated during compilation  = 4,008K

@@ -24,9 +24,23 @@ HIF003
 --
 FILES
 {
-	dtrig_behav.vhd
+	dtrig_2in.gdf
 	{
-		dtrig_behav [] [U1147235.DLS,U7449008.DLS]
+		dtrig_2in [] []
+		{
+			2 [] [];
+		}
+	}
+	img2.gdf
+	{
+		img2 [] []
+		{
+			1 [] [];
+		}
+	}
+	2p_dtrig_2in.gdf
+	{
+		2p_dtrig_2in [] []
 		{
 			0 [] [];
 		}
@@ -34,5 +48,9 @@ FILES
 }
 TREE
 {
-	dtrig_behav::(0,0):(0): dtrig_behav.vhd;
+	2p_dtrig_2in::(0,0):(0): 2p_dtrig_2in.gdf
+	{
+		dtrig_2in:2:(0,0):(10): dtrig_2in.gdf;
+		dtrig_2in:2:(0,0):(11): dtrig_2in.gdf;
+	}
 }
