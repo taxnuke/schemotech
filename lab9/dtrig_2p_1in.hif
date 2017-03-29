@@ -26,7 +26,7 @@ FILES
 {
 	dtrig_2p_1in.vhd
 	{
-		dtrig_2p_1in [] [U7449008.DLS,U1147235.DLS]
+		dtrig_2p_1in [] [U1147235.DLS,U7449008.DLS]
 		{
 			0 [] [];
 		}

@@ -24,18 +24,18 @@ HIF003
 --
 FILES
 {
-	dtrig_2in.gdf
-	{
-		dtrig_2in [] []
-		{
-			2 [] [];
-		}
-	}
 	img2.gdf
 	{
 		img2 [] []
 		{
 			1 [] [];
+		}
+	}
+	dtrig_2in.gdf
+	{
+		dtrig_2in [] []
+		{
+			2 [] [];
 		}
 	}
 	2p_dtrig_2in.gdf
@@ -50,7 +50,7 @@ TREE
 {
 	2p_dtrig_2in::(0,0):(0): 2p_dtrig_2in.gdf
 	{
-		dtrig_2in:2:(0,0):(10): dtrig_2in.gdf;
 		dtrig_2in:2:(0,0):(11): dtrig_2in.gdf;
+		dtrig_2in:2:(0,0):(10): dtrig_2in.gdf;
 	}
 }
