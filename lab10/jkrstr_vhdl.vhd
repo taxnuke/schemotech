@@ -18,7 +18,7 @@ begin
     jk  <= j & k;
     process(r,s)
     begin
-        --wait on s,r;
+        wait until s='0';
         if (r = '0')then
             qsig <='0';
         elsif (s = '0') then
