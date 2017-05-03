@@ -8,7 +8,7 @@ port (
     );
 end dc_3_8_vhdl;
 
-architecture behavioral of dc_3_8_vhdl is
+architecture behav of dc_3_8_vhdl is
 begin
     process (a)
     begin
@@ -27,4 +27,4 @@ begin
         else q <= "00000000";
         end if;
     end process;
-end behavioral;
+end behav;
