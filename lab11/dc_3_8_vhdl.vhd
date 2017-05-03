@@ -1,40 +1,30 @@
 library ieee;
 use ieee.std_logic_1164.all;
+entity dc_3_8_vhdl is
+port (
+        a: in std_logic_vector (2 downto 0);
+       en: in std_logic;
+        q: out std_logic_vector (7 downto 0)
+    );
+end dc_3_8_vhdl;
 
-entity dc38_vhdl is
-port(
-    a0, a1, a2 : in std_logic;
-    q0,q1,q2,q3,q4,q5,q6,q7 : out std_logic);
-end dc38_vhdl;
-
-architecture behaviour of dc_3_8_vhdl is
-    signal temp0, temp1, temp2, temp3:std_logic;
+architecture behavioral of dc_3_8_vhdl is
 begin
-q0<=temp0;
-q1<=temp1;
-q2<=temp2;
-q3<=temp3;
-process(c, r, jk)
-begin
-    if (c'event and c='1') then
-        if (r='1' and jk='1') then
-            if (temp0='0') then
-                temp0<='1';
-            elsif (temp1='0') then
-                temp1<='1';
-                temp0<='0';
-            elsif (temp2='0') then
-                temp2<='1';
-                temp1<='0';
-                temp0<='0';
-            elsif (temp3='0') then
-                temp3<='1';
-                temp2<='0';
-                temp1<='0';
-                temp0<='0';
-            end if;
+    process (a)
+    begin
+        if en = '1' then
+            case a is
+                when "000" => q <= "00000001";
+                when "001" => q <= "00000010";
+                when "010" => q <= "00000100";
+                when "011" => q <= "00001000";
+                when "100" => q <= "00010000";
+                when "101" => q <= "00100000";
+                when "110" => q <= "01000000";
+                when "111" => q <= "10000000";
+                when others => q <= "00000000";
+            end case;
+        else q <= "00000000";
         end if;
-    end if;
-end process;
-end behaviour;
-
+    end process;
+end behavioral;
