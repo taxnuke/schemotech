@@ -1,15 +1,15 @@
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
 
-ENTITY m IS
+ENTITY memory_4bit_vhdl IS
 PORT(a:IN std_logic_vector(0 to 1);
 	 d:IN std_logic;
 	 c:IN std_logic;
 	 q:OUT std_logic_vector(0 to 3));
-	 
-END m;
 
-ARCHITECTURE behavior OF m IS
+END memory_4bit_vhdl;
+
+ARCHITECTURE behavior OF memory_4bit_vhdl IS
 BEGIN
 PROCESS(d, c, a)
 BEGIN
