@@ -1,0 +1,5 @@
+MESSAGE "File: .\src\memory.vhd" 
+MESSAGE "Compile Entity "memory"" 
+MESSAGE "Entity "memory" has been skipped - no difference detected." 
+MESSAGE "Compile Architecture "behaviour" of Entity "memory"" 
+MESSAGE "Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]" 
