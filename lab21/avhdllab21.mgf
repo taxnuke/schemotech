@@ -1,0 +1,5947 @@
+01000049 V alu_32_types 6 ".\src\alu_32.vhd" 572 419 316
+15
+0
+15
+00000166
+1
+.\src\alu_32.vhd
+0
+0 0 0 0 0 0
+1
+1
+4
+0
+4
+15 ~ ~ 0 0
+0
+1
+1
+1
+0
+1
+1
+1
+1
+1
+0
+0.
+0
+1
+1
+0
+10.
+0
+0
+0
+0
+1
+15 ~ ~ 0 0
+1
+1
+disable
+0
+1
+1
+pass1
+1
+1
+1
+log_and
+2
+1
+1
+log_or
+3
+1
+1
+log_xor
+4
+1
+1
+log_mask
+5
+1
+1
+incr1
+6
+1
+1
+add
+7
+1
+1
+subtract
+8
+1
+1
+multiply
+9
+1
+1
+divide
+10
+0
+64512 0
+0
+1
+1
+61
+0
+61
+15 ~ ~ 1 0
+0
+0
+1
+61
+0
+61
+15 ~ ~ 2 0
+0
+0
+1
+61
+0
+61
+15 ~ ~ 3 0
+0
+0
+1
+61
+0
+61
+15 ~ ~ 4 0
+0
+0
+1
+61
+0
+61
+15 ~ ~ 5 0
+0
+0
+1
+61
+0
+61
+15 ~ ~ 6 0
+0
+0
+1
+61
+0
+61
+15 ~ ~ 7 0
+0
+0
+1
+61
+0
+61
+15 ~ ~ 8 0
+0
+0
+1
+61
+0
+61
+15 ~ ~ 9 0
+0
+0
+1
+61
+0
+61
+15 ~ ~ 10 0
+0
+0
+1
+61
+0
+61
+15 ~ ~ 11 0
+0
+0
+0
+0
+#VLB_VERSION 52
+#INFO
+alu_32_types
+P 1494402850.631
+12
+#ACCESS
+std
+.
+#OBJECTS
+ALU_command 0 4 56 1 . 167
+disable 1 61 296 1 . 167
+pass1 2 61 321 1 . 167
+log_and 3 61 346 1 . 168
+log_or 4 61 371 1 . 168
+log_xor 5 61 396 1 . 168
+log_mask 6 61 421 1 . 168
+incr1 7 61 446 1 . 169
+add 8 61 471 1 . 169
+subtract 9 61 496 1 . 169
+multiply 10 61 521 1 . 169
+divide 11 61 547 1 . 169
+#SPECIFICATION 
+#END
+(unit (alu_32_types 0 166 )
+  (version v11)
+  (time 1494402850.631 2017.05.10 11:54:10)
+  (source (\.\\src\\alu_32.vhd\))
+  (use (std(standard)))
+  (object
+    (type (internal ALU_command 0 167 (enum disable pass1 log_and log_or log_xor log_mask incr1 add subtract multiply divide (to (i 0)(i 10)))))
+  )
+)
+01000050 I dp32_types 6 ".\src\alu_32.vhd" 4494 1340 9812
+15
+0
+15
+00000010
+1
+.\src\alu_32.vhd
+0
+0 0 0 0 0 0
+1
+1
+1
+0
+1
+15 ~ ~ 0 0
+0
+0
+1
+15 STD STANDARD 77 6
+1
+1
+1
+145
+147
+0
+0
+1
+1
+ns
+1
+1
+0
+0
+0
+0
+1
+5
+520
+5
+15 ~ ~ 1 0
+0
+2
+1
+2
+1
+15 STD STANDARD 75 4
+1
+1
+0
+1
+1
+0
+31.
+0
+1
+1
+0
+0.
+0
+1
+0
+0
+1
+145
+147
+1
+31
+0
+0
+0
+0
+1
+0
+0
+1
+145
+147
+1
+0
+0
+0
+0
+0
+0
+1
+15 ~ ~ 1 0
+805371389 0
+0
+0
+1
+5
+0
+5
+15 ~ ~ 2 0
+0
+5
+1
+5
+1
+15 ieee std_logic_1164 5 3
+1
+1
+1
+4
+1
+1
+0
+31.
+0
+1
+1
+0
+0.
+0
+1
+0
+0
+1
+145
+147
+1
+31
+0
+0
+0
+0
+1
+0
+0
+1
+145
+147
+1
+0
+0
+0
+0
+0
+0
+1
+15 ~ ~ 1 0
+0
+1
+15 ieee std_logic_1164 4 2
+11
+3072 0
+0
+0
+1
+5
+520
+5
+15 ~ ~ 3 0
+0
+2
+1
+2
+1
+15 STD STANDARD 75 4
+1
+1
+0
+1
+1
+0
+2.
+0
+1
+1
+0
+0.
+0
+1
+0
+0
+1
+145
+147
+1
+2
+0
+0
+0
+0
+1
+0
+0
+1
+145
+147
+1
+0
+0
+0
+0
+0
+0
+1
+15 ~ ~ 3 0
+805371389 0
+0
+0
+1
+5
+0
+5
+15 ~ ~ 4 1
+1
+5
+1
+5
+1
+15 ieee std_logic_1164 5 3
+1
+1
+1
+4
+1
+1
+0
+2.
+0
+1
+1
+0
+0.
+0
+1
+0
+0
+1
+145
+147
+1
+2
+0
+0
+0
+0
+1
+0
+0
+1
+145
+147
+1
+0
+0
+0
+0
+0
+0
+1
+15 ~ ~ 3 0
+0
+1
+15 ieee std_logic_1164 4 2
+11
+3072 0
+0
+0
+1
+5
+520
+5
+15 ~ ~ 5 0
+0
+2
+1
+2
+1
+15 STD STANDARD 75 4
+1
+1
+0
+1
+1
+0
+3.
+0
+1
+1
+0
+0.
+0
+1
+0
+0
+1
+145
+147
+1
+3
+0
+0
+0
+0
+1
+0
+0
+1
+145
+147
+1
+0
+0
+0
+0
+0
+0
+1
+15 ~ ~ 5 0
+805371389 0
+0
+0
+1
+5
+0
+5
+15 ~ ~ 6 2
+2
+5
+1
+5
+1
+15 ieee std_logic_1164 5 3
+1
+1
+1
+4
+1
+1
+0
+3.
+0
+1
+1
+0
+0.
+0
+1
+0
+0
+1
+145
+147
+1
+3
+0
+0
+0
+0
+1
+0
+0
+1
+145
+147
+1
+0
+0
+0
+0
+0
+0
+1
+15 ~ ~ 5 0
+0
+1
+15 ieee std_logic_1164 4 2
+11
+3072 0
+0
+0
+1
+5
+520
+5
+15 ~ ~ 7 0
+0
+2
+1
+2
+1
+15 STD STANDARD 75 4
+1
+1
+0
+1
+1
+0
+31.
+0
+1
+1
+0
+0.
+0
+1
+0
+0
+1
+145
+147
+1
+31
+0
+0
+0
+0
+1
+0
+0
+1
+145
+147
+1
+0
+0
+0
+0
+0
+0
+1
+15 ~ ~ 7 0
+805371389 0
+0
+0
+1
+5
+0
+5
+15 ~ ~ 8 3
+3
+5
+1
+5
+1
+15 ieee std_logic_1164 5 3
+1
+1
+1
+4
+1
+1
+0
+31.
+0
+1
+1
+0
+0.
+0
+1
+0
+0
+1
+145
+147
+1
+31
+0
+0
+0
+0
+1
+0
+0
+1
+145
+147
+1
+0
+0
+0
+0
+0
+0
+1
+15 ~ ~ 7 0
+0
+1
+15 ieee std_logic_1164 4 2
+11
+3072 0
+0
+0
+1
+5
+520
+5
+15 ~ ~ 9 0
+0
+2
+1
+2
+1
+15 STD STANDARD 75 4
+1
+1
+0
+1
+1
+0
+7.
+0
+1
+1
+0
+0.
+0
+1
+0
+0
+1
+145
+147
+1
+7
+0
+0
+0
+0
+1
+0
+0
+1
+145
+147
+1
+0
+0
+0
+0
+0
+0
+1
+15 ~ ~ 9 0
+805371389 0
+0
+0
+1
+5
+0
+5
+15 ~ ~ 10 4
+4
+5
+1
+5
+1
+15 ieee std_logic_1164 5 3
+1
+1
+1
+4
+1
+1
+0
+7.
+0
+1
+1
+0
+0.
+0
+1
+0
+0
+1
+145
+147
+1
+7
+0
+0
+0
+0
+1
+0
+0
+1
+145
+147
+1
+0
+0
+0
+0
+0
+0
+1
+15 ~ ~ 9 0
+0
+1
+15 ieee std_logic_1164 4 2
+11
+3072 0
+0
+0
+1
+4
+0
+4
+15 ~ ~ 11 5
+5
+5
+1
+5
+0
+1
+1
+1
+1
+1
+1
+0
+0.
+0
+1
+1
+0
+1.
+0
+0
+0
+0
+1
+15 STD STANDARD 0 0
+0
+1
+15 ieee std_logic_1164 4 2
+11
+65024 0
+0
+0
+1
+4
+0
+4
+15 ~ ~ 12 6
+6
+5
+1
+5
+0
+1
+1
+2
+3 -2147483648 2147483647
+0
+1
+15 ~ ~ 2 0
+10
+3584 0
+0
+0
+1
+1
+0
+1
+15 ~ ~ 13 1
+1
+1
+1
+15 ~ ~ 11 5
+1
+0
+0
+1
+1
+0
+1
+15 ~ ~ 14 2
+2
+0
+1
+15 ~ ~ 10 4
+0
+15 ieee std_logic_1164 5 3
+1
+1
+145
+2
+X"00"
+0
+0
+0
+1
+1
+0
+1
+15 ~ ~ 15 3
+3
+0
+1
+15 ~ ~ 10 4
+0
+15 ieee std_logic_1164 5 3
+1
+1
+145
+2
+X"01"
+0
+0
+0
+1
+1
+0
+1
+15 ~ ~ 16 4
+4
+0
+1
+15 ~ ~ 10 4
+0
+15 ieee std_logic_1164 5 3
+1
+1
+145
+2
+X"02"
+0
+0
+0
+1
+1
+0
+1
+15 ~ ~ 17 5
+5
+0
+1
+15 ~ ~ 10 4
+0
+15 ieee std_logic_1164 5 3
+1
+1
+145
+2
+X"03"
+0
+0
+0
+1
+1
+0
+1
+15 ~ ~ 18 6
+6
+0
+1
+15 ~ ~ 10 4
+0
+15 ieee std_logic_1164 5 3
+1
+1
+145
+2
+X"10"
+0
+0
+0
+1
+1
+0
+1
+15 ~ ~ 19 7
+7
+0
+1
+15 ~ ~ 10 4
+0
+15 ieee std_logic_1164 5 3
+1
+1
+145
+2
+X"11"
+0
+0
+0
+1
+1
+0
+1
+15 ~ ~ 20 8
+8
+0
+1
+15 ~ ~ 10 4
+0
+15 ieee std_logic_1164 5 3
+1
+1
+145
+2
+X"12"
+0
+0
+0
+1
+1
+0
+1
+15 ~ ~ 21 9
+9
+0
+1
+15 ~ ~ 10 4
+0
+15 ieee std_logic_1164 5 3
+1
+1
+145
+2
+X"13"
+0
+0
+0
+1
+1
+0
+1
+15 ~ ~ 22 10
+10
+0
+1
+15 ~ ~ 10 4
+0
+15 ieee std_logic_1164 5 3
+1
+1
+145
+2
+X"04"
+0
+0
+0
+1
+1
+0
+1
+15 ~ ~ 23 11
+11
+0
+1
+15 ~ ~ 10 4
+0
+15 ieee std_logic_1164 5 3
+1
+1
+145
+2
+X"05"
+0
+0
+0
+1
+1
+0
+1
+15 ~ ~ 24 12
+12
+0
+1
+15 ~ ~ 10 4
+0
+15 ieee std_logic_1164 5 3
+1
+1
+145
+2
+X"06"
+0
+0
+0
+1
+1
+0
+1
+15 ~ ~ 25 13
+13
+0
+1
+15 ~ ~ 10 4
+0
+15 ieee std_logic_1164 5 3
+1
+1
+145
+2
+X"07"
+0
+0
+0
+1
+1
+0
+1
+15 ~ ~ 26 14
+14
+0
+1
+15 ~ ~ 10 4
+0
+15 ieee std_logic_1164 5 3
+1
+1
+145
+2
+X"20"
+0
+0
+0
+1
+1
+0
+1
+15 ~ ~ 27 15
+15
+0
+1
+15 ~ ~ 10 4
+0
+15 ieee std_logic_1164 5 3
+1
+1
+145
+2
+X"21"
+0
+0
+0
+1
+1
+0
+1
+15 ~ ~ 28 16
+16
+0
+1
+15 ~ ~ 10 4
+0
+15 ieee std_logic_1164 5 3
+1
+1
+145
+2
+X"30"
+0
+0
+0
+1
+1
+0
+1
+15 ~ ~ 29 17
+17
+0
+1
+15 ~ ~ 10 4
+0
+15 ieee std_logic_1164 5 3
+1
+1
+145
+2
+X"31"
+0
+0
+0
+1
+1
+0
+1
+15 ~ ~ 30 18
+18
+0
+1
+15 ~ ~ 10 4
+0
+15 ieee std_logic_1164 5 3
+1
+1
+145
+2
+X"40"
+0
+0
+0
+1
+1
+0
+1
+15 ~ ~ 31 19
+19
+0
+1
+15 ~ ~ 10 4
+0
+15 ieee std_logic_1164 5 3
+1
+1
+145
+2
+X"50"
+0
+0
+0
+1
+1
+0
+1
+15 ~ ~ 32 20
+20
+0
+1
+15 ~ ~ 10 4
+0
+15 ieee std_logic_1164 5 3
+1
+1
+145
+2
+X"41"
+0
+0
+0
+1
+1
+0
+1
+15 ~ ~ 33 21
+21
+0
+1
+15 ~ ~ 10 4
+0
+15 ieee std_logic_1164 5 3
+1
+1
+145
+2
+X"51"
+0
+0
+0
+1
+10
+0
+10
+15 ~ ~ 34 0
+0
+0
+0
+1
+0
+0
+35
+0
+1
+15 STD STANDARD 75 4
+1
+1
+1
+24
+0
+24
+15 ~ ~ 35 0
+0
+1
+15 ieee std_logic_1164 5 3
+1
+0
+0
+0
+1
+10
+0
+10
+15 ~ ~ 36 1
+1
+0
+0
+1
+0
+0
+37
+0
+1
+15 STD STANDARD 88 8
+0
+15 STD STANDARD 75 4
+1
+1
+24
+0
+24
+15 ~ ~ 37 0
+0
+1
+15 ieee std_logic_1164 5 3
+1
+0
+0
+0
+1
+9
+0
+9
+15 ~ ~ 38 2
+2
+0
+0
+2
+0
+0
+40
+0
+1
+1
+24
+0
+24
+15 ~ ~ 39 0
+0
+1
+15 STD STANDARD 75 4
+1
+0
+0
+1
+25
+0
+25
+15 ~ ~ 40 0
+0
+68
+1
+15 ieee std_logic_1164 5 3
+1
+0
+0
+0
+0
+#VLB_VERSION 52
+#INFO
+dp32_types
+P 1494402850.480
+41
+#ACCESS
+std
+.
+ieee
+std_logic_1164 all .
+.
+#OBJECTS
+unit_delay 0 1 56 1 . 11
+~NATURAL~range~31~downto~0~ 1 5 139 1 . 14
+bit_32 2 5 308 1 . 14
+~NATURAL~range~2~downto~0~ 3 5 512 1 . 15
+CC_bits 4 5 679 1 . 15
+~NATURAL~range~3~downto~0~ 5 5 881 1 . 16
+cm_bits 6 5 1048 1 . 16
+~NATURAL~range~31~downto~0~1 7 5 1250 1 . 17
+bus_bit_32 8 5 1419 1 . 17
+~NATURAL~range~7~downto~0~ 9 5 1623 1 . 18
+bit_8 10 5 1790 1 . 18
+bool_to_bit_table 11 4 1993 1 . 20
+bit_32_array 12 4 2127 1 . 21
+bool_to_bit 13 1 2217 1 . 23
+op_add 14 1 2261 1 . 24
+op_sub 15 1 2350 1 . 25
+op_mul 16 1 2439 1 . 26
+op_div 17 1 2528 1 . 27
+op_addq 18 1 2617 1 . 28
+op_subq 19 1 2706 1 . 29
+op_mulq 20 1 2795 1 . 30
+op_divq 21 1 2884 1 . 31
+op_land 22 1 2973 1 . 32
+op_lor 23 1 3064 1 . 33
+op_lxor 24 1 3155 1 . 34
+op_lmask 25 1 3246 1 . 35
+op_ld 26 1 3337 1 . 36
+op_st 27 1 3428 1 . 37
+op_ldq 28 1 3519 1 . 38
+op_stq 29 1 3610 1 . 39
+op_br 30 1 3701 1 . 40
+op_brq 31 1 3792 1 . 41
+op_bi 32 1 3883 1 . 42
+op_biq 33 1 3974 1 . 43
+bits_to_int 34 10 4066 1 . 52 1937 1 52 65
+bits 35 24 4132 0 . 52
+bits_to_natural 36 10 4193 1 . 54 2070 1 54 69
+bits 37 24 4280 0 . 54
+int_to_bits 38 9 4340 1 . 56 2167 1 56 68
+int 39 24 4380 0 . 56
+bits 40 25 4433 0 . 56
+#SPECIFICATION 
+#END
+(unit (dp32_types 0 10 (dp32_types 0 58 ))
+  (version v11)
+  (time 1496056766.602 2017.05.29 15:19:26)
+  (source (\.\\src\\alu_32.vhd\))
+  (use (std(standard))(ieee(std_logic_1164)))
+  (object
+    (constant (internal unit_delay ~extSTD.STANDARD.TIME 0 11 (architecture -1 ((d 1000)))))
+    (type (internal bit_32 0 14 (array ~extieee.std_logic_1164.std_logic ((downto (i 31)(i 0))))))
+    (type (internal CC_bits 0 15 (array ~extieee.std_logic_1164.std_logic ((downto (i 2)(i 0))))))
+    (type (internal cm_bits 0 16 (array ~extieee.std_logic_1164.std_logic ((downto (i 3)(i 0))))))
+    (type (internal bus_bit_32 0 17 (array ~extieee.std_logic_1164.std_logic ((downto (i 31)(i 0))))))
+    (type (internal bit_8 0 18 (array ~extieee.std_logic_1164.std_logic ((downto (i 7)(i 0))))))
+    (type (internal bool_to_bit_table 0 20 (array ~extieee.std_logic_1164.std_logic ((to (i 0)(i 1))))))
+    (type (internal bit_32_array 0 21 (array bit_32 ((uto (i -2147483648)(i 2147483647))))))
+    (constant (internal bool_to_bit bool_to_bit_table 0 23 (architecture -1 ((0(i 2))(1(i 3))))))
+    (constant (internal op_add bit_8 0 24 (architecture -1 (((i 2))((i 2))((i 2))((i 2))((i 2))((i 2))((i 2))((i 2))))))
+    (constant (internal op_sub bit_8 0 25 (architecture -1 (((i 2))((i 2))((i 2))((i 2))((i 2))((i 2))((i 2))((i 3))))))
+    (constant (internal op_mul bit_8 0 26 (architecture -1 (((i 2))((i 2))((i 2))((i 2))((i 2))((i 2))((i 3))((i 2))))))
+    (constant (internal op_div bit_8 0 27 (architecture -1 (((i 2))((i 2))((i 2))((i 2))((i 2))((i 2))((i 3))((i 3))))))
+    (constant (internal op_addq bit_8 0 28 (architecture -1 (((i 2))((i 2))((i 2))((i 3))((i 2))((i 2))((i 2))((i 2))))))
+    (constant (internal op_subq bit_8 0 29 (architecture -1 (((i 2))((i 2))((i 2))((i 3))((i 2))((i 2))((i 2))((i 3))))))
+    (constant (internal op_mulq bit_8 0 30 (architecture -1 (((i 2))((i 2))((i 2))((i 3))((i 2))((i 2))((i 3))((i 2))))))
+    (constant (internal op_divq bit_8 0 31 (architecture -1 (((i 2))((i 2))((i 2))((i 3))((i 2))((i 2))((i 3))((i 3))))))
+    (constant (internal op_land bit_8 0 32 (architecture -1 (((i 2))((i 2))((i 2))((i 2))((i 2))((i 3))((i 2))((i 2))))))
+    (constant (internal op_lor bit_8 0 33 (architecture -1 (((i 2))((i 2))((i 2))((i 2))((i 2))((i 3))((i 2))((i 3))))))
+    (constant (internal op_lxor bit_8 0 34 (architecture -1 (((i 2))((i 2))((i 2))((i 2))((i 2))((i 3))((i 3))((i 2))))))
+    (constant (internal op_lmask bit_8 0 35 (architecture -1 (((i 2))((i 2))((i 2))((i 2))((i 2))((i 3))((i 3))((i 3))))))
+    (constant (internal op_ld bit_8 0 36 (architecture -1 (((i 2))((i 2))((i 3))((i 2))((i 2))((i 2))((i 2))((i 2))))))
+    (constant (internal op_st bit_8 0 37 (architecture -1 (((i 2))((i 2))((i 3))((i 2))((i 2))((i 2))((i 2))((i 3))))))
+    (constant (internal op_ldq bit_8 0 38 (architecture -1 (((i 2))((i 2))((i 3))((i 3))((i 2))((i 2))((i 2))((i 2))))))
+    (constant (internal op_stq bit_8 0 39 (architecture -1 (((i 2))((i 2))((i 3))((i 3))((i 2))((i 2))((i 2))((i 3))))))
+    (constant (internal op_br bit_8 0 40 (architecture -1 (((i 2))((i 3))((i 2))((i 2))((i 2))((i 2))((i 2))((i 2))))))
+    (constant (internal op_brq bit_8 0 41 (architecture -1 (((i 2))((i 3))((i 2))((i 3))((i 2))((i 2))((i 2))((i 2))))))
+    (constant (internal op_bi bit_8 0 42 (architecture -1 (((i 2))((i 3))((i 2))((i 2))((i 2))((i 2))((i 2))((i 3))))))
+    (constant (internal op_biq bit_8 0 43 (architecture -1 (((i 2))((i 3))((i 2))((i 3))((i 2))((i 2))((i 2))((i 3))))))
+    (constant (internal bool_to_bit bool_to_bit_table 0 59 (architecture -1 ((0(i 2))(1(i 3))))))
+    (type (internal ~std_logic_vector{31~downto~0}~ 0 131 (array ~extieee.std_logic_1164.std_logic ((downto (i 31)(i 0))))))
+    (type (external ~extSTD.STANDARD.TIME (STD STANDARD TIME)))
+    (type (external ~extieee.std_logic_1164.std_logic (ieee std_logic_1164 std_logic)))
+    (type (external ~extieee.std_logic_1164.std_ulogic (ieee std_logic_1164 std_ulogic)))
+    (type (external ~extieee.std_logic_1164.std_logic_vector (ieee std_logic_1164 std_logic_vector)))
+    (type (external ~extSTD.STANDARD.INTEGER (STD STANDARD INTEGER)))
+    (type (external ~extSTD.STANDARD.NATURAL (STD STANDARD NATURAL)))
+    (subprogram
+      (internal bits_to_int 0 0 52 (architecture (function )))
+      (internal bits_to_natural 1 0 54 (architecture (function )))
+      (internal int_to_bits 2 0 56 (architecture (procedure )))
+      (external resolved (ieee std_logic_1164 0))
+    )
+  )
+  (model
+    (
+      (2b83(1))
+      (2c83(2200006(1)))
+      (2c83(2400005(5)))
+      (2c83(2200004(1)))
+      (2c83(2200003(1)))
+      (2c83(2200002(1)))
+      (2c83(2200001(1)))
+      (2c83(2400000(5)))
+      (296c(1a00000(4400003)))
+      (b9ac)
+      (7c5f(1))
+      (7c5f(1))
+      (545f(1a00000))
+      (337c(2400000(5)))
+      (795f(2400000))
+      (3284(1200000(4400001)))
+      (d6(0(40)))
+      (336c(2200001))
+      (d6(0(41)))
+      (336c(2200002))
+      (d6(0(43)))
+      (b5f(1a00000))
+      (3f5f(1a00000))
+      (7c5f(1))
+      (3393(1a00000))
+      (b95f)
+      (7c0b(3))
+      (3(28))
+      (d6(0(44)))
+      (b5f(1a00000))
+      (5d5f(1a00000))
+      (b969)
+      (5a5f(1a00000(1)))
+      (14b7)
+      (595f(2400000(1)))
+      (b9d0)
+      (b5f(1200000))
+      (5d5f(1a00000))
+      (b97c)
+      (1(33))
+      (d6(0(46)))
+      (b5f(1a00000))
+      (5d5f(1a00000))
+      (b969)
+      (5a5f(1a00000(1)))
+      (595f(2400000(1)))
+      (b9d0)
+      (b5f(1200000))
+      (5d5f(1a00000))
+      (b97c)
+      (d6(0(47)))
+      (4e5f(1a00000))
+      (6c(2200003))
+      (425f(1a00000))
+      (6c(2200004))
+      (3f5f(1a00000))
+      (7c5f(1))
+      (7c5f(1))
+      (545f(1a00000))
+      (337c(2400005(5)))
+      (6c(2200006))
+      (5f(2200003))
+      (320c(2200004(2200006)))
+      (2(59))
+      (3247(2200004(2200003)))
+      (d6(0(48)))
+      (320b(2200004(2200006)))
+      (2(59))
+      (d6(0(49)))
+      (b5f(1200000))
+      (5f(2200006))
+      (7c5f(1))
+      (3392(2400000))
+      (b95f)
+      (7c0b(2))
+      (3(4f))
+      (d6(0(4a)))
+      (336c(2200002))
+      (1(52))
+      (d6(0(4c)))
+      (336c(2200002(1)))
+      (d6(0(4d)))
+      (d6(0(4f)))
+      (332e(2200001(2)))
+      (26(2200002))
+      (6c(2200001))
+      (3247(2200006(2200003)))
+      (d6(0(50)))
+      (1(41))
+      (d6(0(51)))
+      (b5f(1a00000))
+      (3f5f(1a00000))
+      (7c5f(1))
+      (3393(1a00000))
+      (b95f)
+      (7c0b(3))
+      (3(66))
+      (d6(0(52)))
+      (3c(2200001))
+      (7c29(1))
+      (6c(2200001))
+      (d6(0(53)))
+      (d6(0(54)))
+      (5f(2200001))
+      (b907)
+    )
+    (
+      (2c83(2200005(1)))
+      (2c83(2400004(5)))
+      (2c83(2200003(1)))
+      (2c83(2200002(1)))
+      (2c83(2200001(1)))
+      (2c83(2200000(1)))
+      (296c(1a00000(4400003)))
+      (b9ac)
+      (d6(0(73)))
+      (336c(2200000))
+      (d6(0(74)))
+      (336c(2200001))
+      (4e5f(1a00000))
+      (6c(2200002))
+      (425f(1a00000))
+      (6c(2200003))
+      (3f5f(1a00000))
+      (7c5f(1))
+      (7c5f(1))
+      (545f(1a00000))
+      (337c(2400004(5)))
+      (6c(2200005))
+      (5f(2200002))
+      (320c(2200003(2200005)))
+      (2(33))
+      (3247(2200003(2200002)))
+      (d6(0(76)))
+      (320b(2200003(2200005)))
+      (2(33))
+      (d6(0(77)))
+      (b5f(1a00000))
+      (5f(2200005))
+      (7c5f(1))
+      (3393(1a00000))
+      (b95f)
+      (7c0b(2))
+      (3(28))
+      (d6(0(78)))
+      (336c(2200001))
+      (1(2b))
+      (d6(0(7a)))
+      (336c(2200001(1)))
+      (d6(0(7b)))
+      (d6(0(7d)))
+      (332e(2200000(2)))
+      (26(2200001))
+      (22cc(0(7fffffff)))
+      (6c(2200000))
+      (3247(2200005(2200002)))
+      (d6(0(7e)))
+      (1(1a))
+      (d6(0(7f)))
+      (5f(2200000))
+      (b907)
+    )
+    (
+      (2c83(2200006(1)))
+      (2c83(2400005(5)))
+      (2c83(2200004(1)))
+      (2c83(2200003(1)))
+      (2d83(2200002(4400004)))
+      (2d83(2200001(8400007)))
+      (296c(1a00000(4400003)))
+      (286c(2200000(1)))
+      (b9ac)
+      (d6(0(86)))
+      (331e(2200000))
+      (3(11))
+      (d6(0(87)))
+      (3326(2200000(1)))
+      (b93c)
+      (6c(2200002))
+      (1(15))
+      (d6(0(89)))
+      (5f(2200000))
+      (6c(2200002))
+      (d6(0(8a)))
+      (515f(1a00000))
+      (6c(2200003))
+      (3f5f(1a00000))
+      (6c(2200004))
+      (425f(1a00000))
+      (7c5f(1))
+      (7c5f(1))
+      (575f(1a00000))
+      (337c(2400005(5)))
+      (6c(2200006))
+      (5f(2200003))
+      (320c(2200004(2200006)))
+      (2(40))
+      (3247(2200004(2200003)))
+      (d6(0(8b)))
+      (320b(2200004(2200006)))
+      (2(40))
+      (d6(0(8c)))
+      (5f(2200002))
+      (7c3a(2))
+      (7c0b)
+      (3(33))
+      (d6(0(8d)))
+      (7c5f(2))
+      (b5f(2200001))
+      (5f(2200006))
+      (24cd(1f))
+      (7ca0(1f))
+      (b96c)
+      (1(3b))
+      (d6(0(8f)))
+      (7c5f(3))
+      (b5f(2200001))
+      (5f(2200006))
+      (24cd(1f))
+      (7ca0(1f))
+      (b96c)
+      (d6(0(90)))
+      (d6(0(91)))
+      (334a(2200002(2)))
+      (3247(2200006(2200003)))
+      (d6(0(92)))
+      (1(23))
+      (d6(0(93)))
+      (331e(2200000))
+      (3(51))
+      (d6(0(94)))
+      (3369(2200001(20)))
+      (35aa(1f))
+      (14b7)
+      (24ce(1f))
+      (337c(2200001(20)))
+      (d6(0(95)))
+      (7c5f(3))
+      (b5f(2200001))
+      (3f5f(1a00000))
+      (24cd(1f))
+      (7ca0(1f))
+      (b96c)
+      (d6(0(96)))
+      (d6(0(97)))
+      (3369(2200001(20)))
+      (5a5f(1a00000(1)))
+      (24d0(1f))
+      (b5f(1a00000))
+      (5d5f(1a00000))
+      (b97c)
+      (d6(0(98)))
+      (1369(1a00000))
+      (b907)
+    )
+  )
+)
+01000066 I ALU_32 5 ".\src\alu_32.vhd" 559 344 1
+ behaviour 10320 664 0 0
+12
+0
+12
+00000180
+1
+.\src\alu_32.vhd
+0
+0 0 0 0 0 0
+1
+1
+30
+0
+30
+12 ~ ~ 0 0
+0
+1
+15 STD STANDARD 77 6
+1
+1
+1
+139
+0
+0
+0
+0
+1
+unit_delay
+0
+0
+0
+1
+1
+15 ~ dp32_types 0 0
+1
+0
+0
+0
+1
+29
+0
+29
+12 ~ ~ 1 0
+0
+67
+0
+1
+15 ~ dp32_types 2 0
+0
+15 ieee std_logic_1164 5 3
+0
+0
+1
+29
+0
+29
+12 ~ ~ 2 1
+1
+67
+0
+1
+15 ~ dp32_types 2 0
+0
+15 ieee std_logic_1164 5 3
+0
+0
+1
+29
+0
+29
+12 ~ ~ 3 2
+2
+68
+1
+1
+15 ~ dp32_types 8 3
+0
+15 ieee std_logic_1164 5 3
+0
+0
+1
+29
+0
+29
+12 ~ ~ 4 3
+3
+68
+0
+1
+15 ~ dp32_types 4 1
+0
+15 ieee std_logic_1164 5 3
+0
+0
+1
+29
+0
+29
+12 ~ ~ 5 4
+4
+67
+0
+1
+15 ~ alu_32_types 0 0
+1
+0
+0
+0
+#VLB_VERSION 52
+#INFO
+ALU_32
+E 1494403642.447
+6
+#ACCESS
+~
+avhdllab21
+alu_32_types all .
+dp32_types all .
+.
+std
+.
+ieee
+std_logic_1164 all .
+.
+#OBJECTS
+Tpd 0 30 57 1 . 181
+operand1 1 29 172 1 . 182
+operand2 2 29 255 1 . 183
+result 3 29 338 1 . 184
+cond_code 4 29 421 1 . 185
+command 5 29 504 1 . 186
+#SPECIFICATION 
+#END
+(unit (ALU_32 0 180 (behaviour 0 188 ))
+  (version v11)
+  (time 1496056766.790 2017.05.29 15:19:26)
+  (source (\.\\src\\alu_32.vhd\))
+  (use (std(standard))(avhdllab21(alu_32_types))(avhdllab21(dp32_types))(ieee(std_logic_1164)))
+  (object
+    (generic (internal Tpd ~extSTD.STANDARD.TIME 0 181 \1.0 ns\ (architecture -1 ((d 1000)))))
+    (port (internal operand1 ~extavhdllab21.dp32_types.bit_32 0 182 (architecture (in ))))
+    (port (internal operand2 ~extavhdllab21.dp32_types.bit_32 0 183 (architecture (in ))))
+    (port (internal result ~extavhdllab21.dp32_types.bus_bit_32 0 184 (architecture (out ))))
+    (port (internal cond_code ~extavhdllab21.dp32_types.CC_bits 0 185 (architecture (out ))))
+    (port (internal command ~extavhdllab21.alu_32_types.ALU_command 0 186 (architecture (in ))))
+    (signal (alias cc_V ~extieee.std_logic_1164.std_logic 0 189 (architecture (3(0(1))))))
+    (signal (alias cc_N ~extieee.std_logic_1164.std_logic 0 190 (architecture (3(1(1))))))
+    (signal (alias cc_Z ~extieee.std_logic_1164.std_logic 0 191 (architecture (3(2(1))))))
+    (variable (internal a ~extSTD.STANDARD.INTEGER 0 195 (process 0 )))
+    (variable (internal b ~extSTD.STANDARD.INTEGER 0 195 (process 0 )))
+    (variable (internal temp_result ~extavhdllab21.dp32_types.bit_32 0 196 (process 0 ((others(i 2))))))
+    (type (external ~extSTD.STANDARD.TIME (STD STANDARD TIME)))
+    (type (external ~extavhdllab21.dp32_types.bit_32 (avhdllab21 dp32_types bit_32)))
+    (type (external ~extieee.std_logic_1164.std_logic (ieee std_logic_1164 std_logic)))
+    (type (external ~extieee.std_logic_1164.std_ulogic (ieee std_logic_1164 std_ulogic)))
+    (type (external ~extieee.std_logic_1164.std_logic_vector (ieee std_logic_1164 std_logic_vector)))
+    (type (external ~extavhdllab21.dp32_types.bus_bit_32 (avhdllab21 dp32_types bus_bit_32)))
+    (type (external ~extavhdllab21.dp32_types.CC_bits (avhdllab21 dp32_types CC_bits)))
+    (type (external ~extavhdllab21.alu_32_types.ALU_command (avhdllab21 alu_32_types ALU_command)))
+    (type (external ~extSTD.STANDARD.INTEGER (STD STANDARD INTEGER)))
+    (type (external ~extavhdllab21.dp32_types.bool_to_bit_table (avhdllab21 dp32_types bool_to_bit_table)))
+    (variable (external unit_delay(avhdllab21 dp32_types 0)))
+    (variable (external bool_to_bit(avhdllab21 dp32_types 1)))
+    (process
+      (ALU_function(architecture 0 0 194 (process (target(7)(6)(5)(2))(sensitivity(4)(1)(0)))))
+    )
+    (subprogram
+      (external resolved (ieee std_logic_1164 0))
+      (external bits_to_int (avhdllab21 dp32_types 0))
+      (external int_to_bits (avhdllab21 dp32_types 2))
+    )
+  )
+  (static
+    (2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 )
+  )
+  (model
+    (
+      (2c83(2200001(1)))
+      (2c83(2200000(1)))
+      (b9ac)
+      (d6(0(c6)))
+      (5f(8300004))
+      (6c(2200000))
+      (330b(2200000(7)))
+      (2(e))
+      (330b(2200000(8)))
+      (2(e))
+      (330b(2200000(9)))
+      (2(e))
+      (330b(2200000(a)))
+      (3(19))
+      (d6(0(c8)))
+      (3369(8300000(20)))
+      (35aa(1f))
+      (a(4000001))
+      (6c(8200001))
+      (d6(0(c9)))
+      (3369(8300001(20)))
+      (35aa(1f))
+      (a(4000001))
+      (6c(8200002))
+      (1(23))
+      (330b(2200000(6)))
+      (3(23))
+      (d6(0(cb)))
+      (3369(8300000(20)))
+      (35aa(1f))
+      (a(4000001))
+      (6c(8200001))
+      (d6(0(cc)))
+      (336c(8200002(1)))
+      (1(23))
+      (d6(0(cf)))
+      (d6(0(d0)))
+      (5f(8300004))
+      (6c(2200001))
+      (330b(2200001))
+      (3(2a))
+      (1(14d))
+      (330b(2200001(1)))
+      (3(30))
+      (d6(0(d4)))
+      (3369(8300000(20)))
+      (337c(8200003(20)))
+      (1(14d))
+      (330b(2200001(2)))
+      (3(3b))
+      (d6(0(d6)))
+      (3369(8300000(20)))
+      (35aa(1f))
+      (3369(8300001(20)))
+      (35aa(1f))
+      (8b7)
+      (24ce(1f))
+      (337c(8200003(20)))
+      (1(14d))
+      (330b(2200001(3)))
+      (3(46))
+      (d6(0(d8)))
+      (3369(8300000(20)))
+      (35aa(1f))
+      (3369(8300001(20)))
+      (35aa(1f))
+      (cb7)
+      (24ce(1f))
+      (337c(8200003(20)))
+      (1(14d))
+      (330b(2200001(4)))
+      (3(51))
+      (d6(0(da)))
+      (3369(8300000(20)))
+      (35aa(1f))
+      (3369(8300001(20)))
+      (35aa(1f))
+      (10b7)
+      (24ce(1f))
+      (337c(8200003(20)))
+      (1(14d))
+      (330b(2200001(5)))
+      (3(5d))
+      (d6(0(dc)))
+      (3369(8300000(20)))
+      (35aa(1f))
+      (3369(8300001(20)))
+      (35aa(1f))
+      (14b7)
+      (8b7)
+      (24ce(1f))
+      (337c(8200003(20)))
+      (1(14d))
+      (330b(2200001(7)))
+      (2(61))
+      (330b(2200001(6)))
+      (3(9c))
+      (d6(0(de)))
+      (3316(8200002))
+      (5(68))
+      (5f(8200001))
+      (3429(7fffffff(8200002)))
+      (b916)
+      (b94f)
+      (3(78))
+      (d6(0(df)))
+      (3326(8200001(80000000)))
+      (26(8200002))
+      (7c29(7fffffff))
+      (7c29(1))
+      (3369(8200003(20)))
+      (35aa(1f))
+      (9(4000002))
+      (337c(8200003(20)))
+      (d6(0(e0)))
+      (7c5f(3))
+      (66(8200000))
+      (105f(8300005))
+      (9987)
+      (1(9b))
+      (d6(0(e1)))
+      (331e(8200002))
+      (5(7f))
+      (5f(8200001))
+      (3429(80000000(8200002)))
+      (b91e)
+      (b94f)
+      (3(8f))
+      (d6(0(e2)))
+      (3326(8200001(7fffffff)))
+      (26(8200002))
+      (7c29(80000000))
+      (7c26(1))
+      (3369(8200003(20)))
+      (35aa(1f))
+      (9(4000002))
+      (337c(8200003(20)))
+      (d6(0(e3)))
+      (7c5f(3))
+      (66(8200000))
+      (105f(8300005))
+      (9987)
+      (1(9b))
+      (d6(0(e5)))
+      (3226(8200001(8200002)))
+      (3369(8200003(20)))
+      (35aa(1f))
+      (9(4000002))
+      (337c(8200003(20)))
+      (d6(0(e6)))
+      (7c5f(2))
+      (66(8200000))
+      (105f(8300005))
+      (9987)
+      (d6(0(e7)))
+      (1(14d))
+      (330b(2200001(8)))
+      (3(d9))
+      (d6(0(e9)))
+      (331e(8200002))
+      (5(a5))
+      (5f(8200001))
+      (3326(8200002(7fffffff)))
+      (b916)
+      (b94f)
+      (3(b5))
+      (d6(0(ea)))
+      (3326(8200001(80000000)))
+      (29(8200002))
+      (7c29(7fffffff))
+      (7c29(1))
+      (3369(8200003(20)))
+      (35aa(1f))
+      (9(4000002))
+      (337c(8200003(20)))
+      (d6(0(eb)))
+      (7c5f(3))
+      (66(8200000))
+      (105f(8300005))
+      (9987)
+      (1(d8))
+      (d6(0(ec)))
+      (3316(8200002))
+      (5(bc))
+      (5f(8200001))
+      (3326(8200002(80000000)))
+      (b91e)
+      (b94f)
+      (3(cc))
+      (d6(0(ed)))
+      (3326(8200001(7fffffff)))
+      (29(8200002))
+      (7c29(80000000))
+      (7c26(1))
+      (3369(8200003(20)))
+      (35aa(1f))
+      (9(4000002))
+      (337c(8200003(20)))
+      (d6(0(ee)))
+      (7c5f(3))
+      (66(8200000))
+      (105f(8300005))
+      (9987)
+      (1(d8))
+      (d6(0(f0)))
+      (3229(8200001(8200002)))
+      (3369(8200003(20)))
+      (35aa(1f))
+      (9(4000002))
+      (337c(8200003(20)))
+      (d6(0(f1)))
+      (7c5f(2))
+      (66(8200000))
+      (105f(8300005))
+      (9987)
+      (d6(0(f2)))
+      (1(14d))
+      (330b(2200001(9)))
+      (3(127))
+      (d6(0(f4)))
+      (3316(8200001))
+      (5(e0))
+      (3316(8200002))
+      (b94f)
+      (4(e6(1)))
+      (331e(8200001))
+      (5(e5))
+      (331e(8200002))
+      (b94f)
+      (b94b)
+      (5(ed))
+      (41(8200001))
+      (7c5f(7fffffff))
+      (41(8200002))
+      (b934)
+      (b916)
+      (b94f)
+      (3(fa))
+      (d6(0(f7)))
+      (7c5f(7fffffff))
+      (3369(8200003(20)))
+      (35aa(1f))
+      (9(4000002))
+      (337c(8200003(20)))
+      (d6(0(f8)))
+      (7c5f(3))
+      (66(8200000))
+      (105f(8300005))
+      (9987)
+      (1(126))
+      (d6(0(f9)))
+      (3316(8200001))
+      (5(ff))
+      (331e(8200002))
+      (b94f)
+      (4(105(1)))
+      (331e(8200001))
+      (5(104))
+      (3316(8200002))
+      (b94f)
+      (b94b)
+      (5(10d))
+      (41(8200001))
+      (b93c)
+      (7c5f(80000000))
+      (41(8200002))
+      (b934)
+      (b91e)
+      (b94f)
+      (3(11a))
+      (d6(0(fc)))
+      (7c5f(80000000))
+      (3369(8200003(20)))
+      (35aa(1f))
+      (9(4000002))
+      (337c(8200003(20)))
+      (d6(0(fd)))
+      (7c5f(3))
+      (66(8200000))
+      (105f(8300005))
+      (9987)
+      (1(126))
+      (d6(0(ff)))
+      (322e(8200001(8200002)))
+      (3369(8200003(20)))
+      (35aa(1f))
+      (9(4000002))
+      (337c(8200003(20)))
+      (d6(0(100)))
+      (7c5f(2))
+      (66(8200000))
+      (105f(8300005))
+      (9987)
+      (d6(0(101)))
+      (1(14d))
+      (d6(0(103)))
+      (330b(8200002))
+      (3(141))
+      (d6(0(104)))
+      (3317(8200001))
+      (3(134))
+      (d6(0(105)))
+      (7c5f(7fffffff))
+      (3369(8200003(20)))
+      (35aa(1f))
+      (9(4000002))
+      (337c(8200003(20)))
+      (1(13b))
+      (d6(0(107)))
+      (7c5f(80000000))
+      (3369(8200003(20)))
+      (35aa(1f))
+      (9(4000002))
+      (337c(8200003(20)))
+      (d6(0(108)))
+      (d6(0(109)))
+      (7c5f(3))
+      (66(8200000))
+      (105f(8300005))
+      (9987)
+      (1(14d))
+      (d6(0(10b)))
+      (3234(8200001(8200002)))
+      (3369(8200003(20)))
+      (35aa(1f))
+      (9(4000002))
+      (337c(8200003(20)))
+      (d6(0(10c)))
+      (7c5f(2))
+      (66(8200000))
+      (105f(8300005))
+      (9987)
+      (d6(0(10d)))
+      (d6(0(10e)))
+      (d6(0(10f)))
+      (330d(8300004))
+      (3(158))
+      (d6(0(110)))
+      (3369(8200003(20)))
+      (66(8200000))
+      (105f(8300002))
+      (7c5f(20))
+      (9787)
+      (1(15e))
+      (d6(0(112)))
+      (66(8200000))
+      (105f(8300002))
+      (7c5f(20))
+      (8b87)
+      (d6(0(113)))
+      (d6(0(115)))
+      (b5f(4200001))
+      (3369(8200003(20)))
+      (35aa(1f))
+      (3369(3200000(20)))
+      (35a9(0(1f)))
+      (7c12(1))
+      (22cd(0(1)))
+      (b995)
+      (66(8200000))
+      (105f(8300007))
+      (9987)
+      (d6(0(116)))
+      (b5f(4200001))
+      (330b(8200003(3)))
+      (22cd(0(1)))
+      (b995)
+      (66(8200000))
+      (105f(8300006))
+      (9987)
+      (d6(0(121)))
+      (af08)
+      (1(3))
+    )
+  )
+)
+2_______
+52
+behaviour
+4
+8
+std
+.
+.
+1
+1
+7
+cc_V
+0
+7
+13 ~ ~ 0 0
+189
+5
+29
+1
+15 ieee std_logic_1164 4 2
+0
+15 ieee std_logic_1164 0 0
+1
+0
+1
+1
+1
+0
+0
+0
+0
+1
+cond_code
+0
+0
+0
+1
+29
+12 avhdllab21 ALU_32 4 3
+1
+0
+1
+1
+142
+1
+145
+147
+1
+2
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+7
+cc_N
+0
+7
+13 ~ ~ 1 1
+190
+6
+29
+1
+15 ieee std_logic_1164 4 2
+0
+15 ieee std_logic_1164 0 0
+1
+0
+1
+1
+1
+0
+0
+0
+0
+1
+cond_code
+0
+0
+0
+1
+29
+12 avhdllab21 ALU_32 4 3
+1
+0
+1
+1
+142
+1
+145
+147
+1
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+7
+cc_Z
+0
+7
+13 ~ ~ 2 2
+191
+7
+29
+1
+15 ieee std_logic_1164 4 2
+0
+15 ieee std_logic_1164 0 0
+1
+0
+1
+1
+1
+0
+0
+0
+0
+1
+cond_code
+0
+0
+0
+1
+29
+12 avhdllab21 ALU_32 4 3
+1
+0
+1
+1
+142
+1
+145
+147
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+01000088 I alu_32_tb 5 ".\src\TestBench\ALU_32_TB.vhd" 151 213 1
+ TB_ARCHITECTURE 4532 1778 0 0
+12
+0
+12
+00000017
+1
+.\src\TestBench\ALU_32_TB.vhd
+0
+0 0 0 0 0 0
+1
+1
+30
+0
+30
+12 ~ ~ 0 0
+0
+1
+15 STD STANDARD 77 6
+1
+1
+1
+145
+147
+0
+0
+1
+1
+ns
+0
+1
+1.
+0
+0
+0
+0
+#VLB_VERSION 52
+#INFO
+alu_32_tb
+E 1494405988.682
+1
+#ACCESS
+~
+avhdllab21
+alu_32_types all .
+dp32_types all .
+.
+std
+.
+ieee
+std_logic_1164 all .
+.
+#OBJECTS
+TPD 0 30 70 1 . 20
+#SPECIFICATION 
+#END
+(unit (alu_32_tb 0 17 (TB_ARCHITECTURE 0 23 ))
+  (version v11)
+  (time 1496056766.930 2017.05.29 15:19:26)
+  (source (\.\\src\\TestBench\\ALU_32_TB.vhd\))
+  (use (std(standard))(avhdllab21(alu_32_types))(avhdllab21(dp32_types))(ieee(std_logic_1164)))
+  (object
+    (generic (internal TPD ~extSTD.STANDARD.TIME 0 20 \1.0 ns\ (architecture -1 ((d 1000)))))
+    (signal (internal operand1 ~extavhdllab21.dp32_types.bit_32 0 37 (architecture (uni ))))
+    (signal (internal operand2 ~extavhdllab21.dp32_types.bit_32 0 38 (architecture (uni ))))
+    (signal (internal command ~extavhdllab21.alu_32_types.ALU_command 0 39 (architecture (uni ))))
+    (signal (internal result ~extavhdllab21.dp32_types.bus_bit_32 0 41 (architecture (uni ))))
+    (signal (internal cond_code ~extavhdllab21.dp32_types.CC_bits 0 42 (architecture (uni ))))
+    (type (external ~extSTD.STANDARD.TIME (STD STANDARD TIME)))
+    (type (external ~extavhdllab21.dp32_types.bit_32 (avhdllab21 dp32_types bit_32)))
+    (type (external ~extieee.std_logic_1164.std_logic (ieee std_logic_1164 std_logic)))
+    (type (external ~extieee.std_logic_1164.std_ulogic (ieee std_logic_1164 std_ulogic)))
+    (type (external ~extieee.std_logic_1164.std_logic_vector (ieee std_logic_1164 std_logic_vector)))
+    (type (external ~extavhdllab21.dp32_types.bus_bit_32 (avhdllab21 dp32_types bus_bit_32)))
+    (type (external ~extavhdllab21.dp32_types.CC_bits (avhdllab21 dp32_types CC_bits)))
+    (type (external ~extavhdllab21.alu_32_types.ALU_command (avhdllab21 alu_32_types ALU_command)))
+    (process
+      (STIMULUS(architecture 0 0 60 (process (wait_for)(target(2)(1)(0)))))
+    )
+    (subprogram
+      (external resolved (ieee std_logic_1164 0))
+    )
+  )
+  (component
+    (ALU_32
+      (object
+        (generic (internal TPD ~extSTD.STANDARD.TIME 0 27 (entity -1 ((d 1000)))))
+        (port (internal operand1 ~extavhdllab21.dp32_types.bit_32 0 29 (entity (in ))))
+        (port (internal operand2 ~extavhdllab21.dp32_types.bit_32 0 30 (entity (in ))))
+        (port (internal result ~extavhdllab21.dp32_types.bus_bit_32 0 31 (entity (out ))))
+        (port (internal cond_code ~extavhdllab21.dp32_types.CC_bits 0 32 (entity (out ))))
+        (port (internal command ~extavhdllab21.alu_32_types.ALU_command 0 33 (entity (in ))))
+      )
+    )
+  )
+  (instantiation UUT 0 49 (component ALU_32)
+    (port
+      ((operand1)(operand1))
+      ((operand2)(operand2))
+      ((result)(result))
+      ((cond_code)(cond_code))
+      ((command)(command))
+    )
+    (use (entity avhdllab21 ALU_32)
+    )
+  )
+  (static
+    (2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 )
+    (2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 )
+  )
+  (model
+    (
+      (d6(0(40)))
+      (3369(3200000(20)))
+      (35a9(0(1f)))
+      (24ce(1f))
+      (105f(8300000))
+      (7c5f(20))
+      (9187)
+      (d6(0(41)))
+      (7c5f)
+      (105f(8300002))
+      (9387)
+      (d6(0(42)))
+      (3369(3200001(20)))
+      (35a9(0(1f)))
+      (24ce(1f))
+      (105f(8300001))
+      (7c5f(20))
+      (9187)
+      (d6(0(43)))
+      (2f66(186a0))
+      (b008)
+      (d6(0(44)))
+      (7c5f(1))
+      (105f(8300002))
+      (9387)
+      (d6(0(45)))
+      (2f66(186a0))
+      (b008)
+      (d6(0(46)))
+      (7c5f(2))
+      (105f(8300002))
+      (9387)
+      (d6(0(47)))
+      (2f66(186a0))
+      (b008)
+      (d6(0(48)))
+      (7c5f(3))
+      (105f(8300002))
+      (9387)
+      (d6(0(49)))
+      (2f66(186a0))
+      (b008)
+      (d6(0(4a)))
+      (7c5f(4))
+      (105f(8300002))
+      (9387)
+      (d6(0(4b)))
+      (2f66(186a0))
+      (b008)
+      (d6(0(4c)))
+      (7c5f(5))
+      (105f(8300002))
+      (9387)
+      (d6(0(4d)))
+      (2f66(186a0))
+      (b008)
+      (d6(0(4e)))
+      (7c5f(6))
+      (105f(8300002))
+      (9387)
+      (d6(0(4f)))
+      (2f66(186a0))
+      (b008)
+      (d6(0(50)))
+      (7c5f(7))
+      (105f(8300002))
+      (9387)
+      (d6(0(51)))
+      (2f66(186a0))
+      (b008)
+      (d6(0(52)))
+      (7c5f(8))
+      (105f(8300002))
+      (9387)
+      (d6(0(53)))
+      (2f66(186a0))
+      (b008)
+      (d6(0(54)))
+      (7c5f(9))
+      (105f(8300002))
+      (9387)
+      (d6(0(55)))
+      (2f66(186a0))
+      (b008)
+      (d6(0(56)))
+      (7c5f(a))
+      (105f(8300002))
+      (9387)
+      (d6(0(57)))
+      (2f66(186a0))
+      (b008)
+      (d6(0(59)))
+      (af08)
+      (d6(0(5a)))
+      (1)
+    )
+  )
+)
+13______
+52
+TB_ARCHITECTURE
+1
+5
+std
+.
+.
+1
+1
+18
+ALU_32
+0
+18
+13 ~ ~ 0 0
+25
+0
+1
+30
+TPD
+0
+30
+13 ~ ~ 1 0
+27
+1
+1
+15 STD STANDARD 77 6
+1
+1
+1
+145
+147
+0
+0
+1
+1
+ns
+0
+1
+1.
+0
+0
+1
+29
+operand1
+0
+29
+13 ~ ~ 2 0
+29
+5
+67
+0
+1
+15 avhdllab21 dp32_types 2 0
+0
+15 ieee std_logic_1164 5 3
+0
+1
+29
+operand2
+0
+29
+13 ~ ~ 3 0
+30
+6
+67
+0
+1
+15 avhdllab21 dp32_types 2 0
+0
+15 ieee std_logic_1164 5 3
+0
+1
+29
+result
+0
+29
+13 ~ ~ 4 0
+31
+7
+68
+0
+1
+15 avhdllab21 dp32_types 8 3
+0
+15 ieee std_logic_1164 5 3
+0
+1
+29
+cond_code
+0
+29
+13 ~ ~ 5 0
+32
+8
+68
+0
+1
+15 avhdllab21 dp32_types 4 1
+0
+15 ieee std_logic_1164 5 3
+0
+1
+29
+command
+0
+29
+13 ~ ~ 6 0
+33
+9
+67
+0
+1
+15 avhdllab21 alu_32_types 0 0
+1
+0
+0
+1
+5
+1
+3
+operand1
+0
+3
+13 ~ ~ 7 0
+37
+0
+1
+15 avhdllab21 dp32_types 2 0
+0
+15 ieee std_logic_1164 5 3
+0
+0
+1
+3
+operand2
+0
+3
+13 ~ ~ 8 1
+38
+1
+1
+15 avhdllab21 dp32_types 2 0
+0
+15 ieee std_logic_1164 5 3
+0
+0
+1
+3
+command
+0
+3
+13 ~ ~ 9 2
+39
+2
+1
+15 avhdllab21 alu_32_types 0 0
+1
+0
+0
+1
+3
+result
+0
+3
+13 ~ ~ 10 3
+41
+3
+1
+15 avhdllab21 dp32_types 8 3
+0
+15 ieee std_logic_1164 5 3
+0
+0
+1
+3
+cond_code
+0
+3
+13 ~ ~ 11 4
+42
+4
+1
+15 avhdllab21 dp32_types 4 1
+0
+15 ieee std_logic_1164 5 3
+0
+0
+0
+1
+1
+1
+39
+39
+39
+~
+0
+39
+13 ~ ~ 13 0
+49
+0
+1
+UUT
+1
+114
+1
+ALU_32
+0
+1
+18
+13 ~ ~ 0 0
+0
+0
+1
+5
+11
+1
+1
+0
+0
+0
+0
+1
+operand1
+0
+0
+0
+1
+29
+13 ~ ~ 2 0
+1
+0
+1
+1
+1
+1
+139
+0
+0
+0
+0
+1
+operand1
+0
+0
+0
+1
+3
+13 ~ ~ 7 0
+1
+0
+0
+0
+0
+11
+1
+1
+0
+0
+0
+0
+1
+operand2
+0
+0
+0
+1
+29
+13 ~ ~ 3 0
+1
+0
+1
+1
+1
+1
+139
+0
+0
+0
+0
+1
+operand2
+0
+0
+0
+1
+3
+13 ~ ~ 8 1
+1
+0
+0
+0
+0
+11
+1
+1
+0
+0
+0
+0
+1
+result
+0
+0
+0
+1
+29
+13 ~ ~ 4 0
+1
+0
+1
+1
+1
+1
+139
+0
+0
+0
+0
+1
+result
+0
+0
+0
+1
+3
+13 ~ ~ 10 3
+1
+0
+0
+0
+0
+11
+1
+1
+0
+0
+0
+0
+1
+cond_code
+0
+0
+0
+1
+29
+13 ~ ~ 5 0
+1
+0
+1
+1
+1
+1
+139
+0
+0
+0
+0
+1
+cond_code
+0
+0
+0
+1
+3
+13 ~ ~ 11 4
+1
+0
+0
+0
+0
+11
+1
+1
+0
+0
+0
+0
+1
+command
+0
+0
+0
+1
+29
+13 ~ ~ 6 0
+1
+0
+1
+1
+1
+1
+139
+0
+0
+0
+0
+1
+command
+0
+0
+0
+1
+3
+13 ~ ~ 9 2
+1
+0
+0
+0
+0
+0
+1
+0
+01000066 I TESTBENCH_FOR_ALU_32 7 ".\src\TestBench\ALU_32_TB.vhd" 0 0 508
+(configuration (TESTBENCH_FOR_ALU_32 0 99 (alu_32_tb))
+  (version v11)
+  (time 1496056767.024 2017.05.29 15:19:27)
+  (source (\.\\src\\TestBench\\ALU_32_TB.vhd\))
+  (use (std(standard)))
+  (architecture TB_ARCHITECTURE
+    (instantiation UUT
+      (entity avhdllab21 ALU_32 behaviour
+        (port
+          ((operand1)(operand1))
+          ((operand2)(operand2))
+          ((result)(result))
+          ((cond_code)(cond_code))
+          ((command)(command))
+        )
+      )
+    )
+  )
+)
+01000050 V dp32_types 6 ".\src\alu_32.vhd" 4494 1340 9812
+15
+0
+15
+00000010
+1
+.\src\alu_32.vhd
+0
+0 0 0 0 0 0
+1
+1
+1
+0
+1
+15 ~ ~ 0 0
+0
+0
+1
+15 STD STANDARD 77 6
+1
+1
+1
+145
+147
+0
+0
+1
+1
+ns
+1
+1
+0
+0
+0
+0
+1
+5
+520
+5
+15 ~ ~ 1 0
+0
+2
+1
+2
+1
+15 STD STANDARD 75 4
+1
+1
+0
+1
+1
+0
+31.
+0
+1
+1
+0
+0.
+0
+1
+0
+0
+1
+145
+147
+1
+31
+0
+0
+0
+0
+1
+0
+0
+1
+145
+147
+1
+0
+0
+0
+0
+0
+0
+1
+15 ~ ~ 1 0
+805371389 0
+0
+0
+1
+5
+0
+5
+15 ~ ~ 2 0
+0
+5
+1
+5
+1
+15 ieee std_logic_1164 5 3
+1
+1
+1
+4
+1
+1
+0
+31.
+0
+1
+1
+0
+0.
+0
+1
+0
+0
+1
+145
+147
+1
+31
+0
+0
+0
+0
+1
+0
+0
+1
+145
+147
+1
+0
+0
+0
+0
+0
+0
+1
+15 ~ ~ 1 0
+0
+1
+15 ieee std_logic_1164 4 2
+11
+3072 0
+0
+0
+1
+5
+520
+5
+15 ~ ~ 3 0
+0
+2
+1
+2
+1
+15 STD STANDARD 75 4
+1
+1
+0
+1
+1
+0
+2.
+0
+1
+1
+0
+0.
+0
+1
+0
+0
+1
+145
+147
+1
+2
+0
+0
+0
+0
+1
+0
+0
+1
+145
+147
+1
+0
+0
+0
+0
+0
+0
+1
+15 ~ ~ 3 0
+805371389 0
+0
+0
+1
+5
+0
+5
+15 ~ ~ 4 1
+1
+5
+1
+5
+1
+15 ieee std_logic_1164 5 3
+1
+1
+1
+4
+1
+1
+0
+2.
+0
+1
+1
+0
+0.
+0
+1
+0
+0
+1
+145
+147
+1
+2
+0
+0
+0
+0
+1
+0
+0
+1
+145
+147
+1
+0
+0
+0
+0
+0
+0
+1
+15 ~ ~ 3 0
+0
+1
+15 ieee std_logic_1164 4 2
+11
+3072 0
+0
+0
+1
+5
+520
+5
+15 ~ ~ 5 0
+0
+2
+1
+2
+1
+15 STD STANDARD 75 4
+1
+1
+0
+1
+1
+0
+3.
+0
+1
+1
+0
+0.
+0
+1
+0
+0
+1
+145
+147
+1
+3
+0
+0
+0
+0
+1
+0
+0
+1
+145
+147
+1
+0
+0
+0
+0
+0
+0
+1
+15 ~ ~ 5 0
+805371389 0
+0
+0
+1
+5
+0
+5
+15 ~ ~ 6 2
+2
+5
+1
+5
+1
+15 ieee std_logic_1164 5 3
+1
+1
+1
+4
+1
+1
+0
+3.
+0
+1
+1
+0
+0.
+0
+1
+0
+0
+1
+145
+147
+1
+3
+0
+0
+0
+0
+1
+0
+0
+1
+145
+147
+1
+0
+0
+0
+0
+0
+0
+1
+15 ~ ~ 5 0
+0
+1
+15 ieee std_logic_1164 4 2
+11
+3072 0
+0
+0
+1
+5
+520
+5
+15 ~ ~ 7 0
+0
+2
+1
+2
+1
+15 STD STANDARD 75 4
+1
+1
+0
+1
+1
+0
+31.
+0
+1
+1
+0
+0.
+0
+1
+0
+0
+1
+145
+147
+1
+31
+0
+0
+0
+0
+1
+0
+0
+1
+145
+147
+1
+0
+0
+0
+0
+0
+0
+1
+15 ~ ~ 7 0
+805371389 0
+0
+0
+1
+5
+0
+5
+15 ~ ~ 8 3
+3
+5
+1
+5
+1
+15 ieee std_logic_1164 5 3
+1
+1
+1
+4
+1
+1
+0
+31.
+0
+1
+1
+0
+0.
+0
+1
+0
+0
+1
+145
+147
+1
+31
+0
+0
+0
+0
+1
+0
+0
+1
+145
+147
+1
+0
+0
+0
+0
+0
+0
+1
+15 ~ ~ 7 0
+0
+1
+15 ieee std_logic_1164 4 2
+11
+3072 0
+0
+0
+1
+5
+520
+5
+15 ~ ~ 9 0
+0
+2
+1
+2
+1
+15 STD STANDARD 75 4
+1
+1
+0
+1
+1
+0
+7.
+0
+1
+1
+0
+0.
+0
+1
+0
+0
+1
+145
+147
+1
+7
+0
+0
+0
+0
+1
+0
+0
+1
+145
+147
+1
+0
+0
+0
+0
+0
+0
+1
+15 ~ ~ 9 0
+805371389 0
+0
+0
+1
+5
+0
+5
+15 ~ ~ 10 4
+4
+5
+1
+5
+1
+15 ieee std_logic_1164 5 3
+1
+1
+1
+4
+1
+1
+0
+7.
+0
+1
+1
+0
+0.
+0
+1
+0
+0
+1
+145
+147
+1
+7
+0
+0
+0
+0
+1
+0
+0
+1
+145
+147
+1
+0
+0
+0
+0
+0
+0
+1
+15 ~ ~ 9 0
+0
+1
+15 ieee std_logic_1164 4 2
+11
+3072 0
+0
+0
+1
+4
+0
+4
+15 ~ ~ 11 5
+5
+5
+1
+5
+0
+1
+1
+1
+1
+1
+1
+0
+0.
+0
+1
+1
+0
+1.
+0
+0
+0
+0
+1
+15 STD STANDARD 0 0
+0
+1
+15 ieee std_logic_1164 4 2
+11
+65024 0
+0
+0
+1
+4
+0
+4
+15 ~ ~ 12 6
+6
+5
+1
+5
+0
+1
+1
+2
+3 -2147483648 2147483647
+0
+1
+15 ~ ~ 2 0
+10
+3584 0
+0
+0
+1
+1
+0
+1
+15 ~ ~ 13 1
+1
+1
+1
+15 ~ ~ 11 5
+1
+0
+0
+1
+1
+0
+1
+15 ~ ~ 14 2
+2
+0
+1
+15 ~ ~ 10 4
+0
+15 ieee std_logic_1164 5 3
+1
+1
+145
+2
+X"00"
+0
+0
+0
+1
+1
+0
+1
+15 ~ ~ 15 3
+3
+0
+1
+15 ~ ~ 10 4
+0
+15 ieee std_logic_1164 5 3
+1
+1
+145
+2
+X"01"
+0
+0
+0
+1
+1
+0
+1
+15 ~ ~ 16 4
+4
+0
+1
+15 ~ ~ 10 4
+0
+15 ieee std_logic_1164 5 3
+1
+1
+145
+2
+X"02"
+0
+0
+0
+1
+1
+0
+1
+15 ~ ~ 17 5
+5
+0
+1
+15 ~ ~ 10 4
+0
+15 ieee std_logic_1164 5 3
+1
+1
+145
+2
+X"03"
+0
+0
+0
+1
+1
+0
+1
+15 ~ ~ 18 6
+6
+0
+1
+15 ~ ~ 10 4
+0
+15 ieee std_logic_1164 5 3
+1
+1
+145
+2
+X"10"
+0
+0
+0
+1
+1
+0
+1
+15 ~ ~ 19 7
+7
+0
+1
+15 ~ ~ 10 4
+0
+15 ieee std_logic_1164 5 3
+1
+1
+145
+2
+X"11"
+0
+0
+0
+1
+1
+0
+1
+15 ~ ~ 20 8
+8
+0
+1
+15 ~ ~ 10 4
+0
+15 ieee std_logic_1164 5 3
+1
+1
+145
+2
+X"12"
+0
+0
+0
+1
+1
+0
+1
+15 ~ ~ 21 9
+9
+0
+1
+15 ~ ~ 10 4
+0
+15 ieee std_logic_1164 5 3
+1
+1
+145
+2
+X"13"
+0
+0
+0
+1
+1
+0
+1
+15 ~ ~ 22 10
+10
+0
+1
+15 ~ ~ 10 4
+0
+15 ieee std_logic_1164 5 3
+1
+1
+145
+2
+X"04"
+0
+0
+0
+1
+1
+0
+1
+15 ~ ~ 23 11
+11
+0
+1
+15 ~ ~ 10 4
+0
+15 ieee std_logic_1164 5 3
+1
+1
+145
+2
+X"05"
+0
+0
+0
+1
+1
+0
+1
+15 ~ ~ 24 12
+12
+0
+1
+15 ~ ~ 10 4
+0
+15 ieee std_logic_1164 5 3
+1
+1
+145
+2
+X"06"
+0
+0
+0
+1
+1
+0
+1
+15 ~ ~ 25 13
+13
+0
+1
+15 ~ ~ 10 4
+0
+15 ieee std_logic_1164 5 3
+1
+1
+145
+2
+X"07"
+0
+0
+0
+1
+1
+0
+1
+15 ~ ~ 26 14
+14
+0
+1
+15 ~ ~ 10 4
+0
+15 ieee std_logic_1164 5 3
+1
+1
+145
+2
+X"20"
+0
+0
+0
+1
+1
+0
+1
+15 ~ ~ 27 15
+15
+0
+1
+15 ~ ~ 10 4
+0
+15 ieee std_logic_1164 5 3
+1
+1
+145
+2
+X"21"
+0
+0
+0
+1
+1
+0
+1
+15 ~ ~ 28 16
+16
+0
+1
+15 ~ ~ 10 4
+0
+15 ieee std_logic_1164 5 3
+1
+1
+145
+2
+X"30"
+0
+0
+0
+1
+1
+0
+1
+15 ~ ~ 29 17
+17
+0
+1
+15 ~ ~ 10 4
+0
+15 ieee std_logic_1164 5 3
+1
+1
+145
+2
+X"31"
+0
+0
+0
+1
+1
+0
+1
+15 ~ ~ 30 18
+18
+0
+1
+15 ~ ~ 10 4
+0
+15 ieee std_logic_1164 5 3
+1
+1
+145
+2
+X"40"
+0
+0
+0
+1
+1
+0
+1
+15 ~ ~ 31 19
+19
+0
+1
+15 ~ ~ 10 4
+0
+15 ieee std_logic_1164 5 3
+1
+1
+145
+2
+X"50"
+0
+0
+0
+1
+1
+0
+1
+15 ~ ~ 32 20
+20
+0
+1
+15 ~ ~ 10 4
+0
+15 ieee std_logic_1164 5 3
+1
+1
+145
+2
+X"41"
+0
+0
+0
+1
+1
+0
+1
+15 ~ ~ 33 21
+21
+0
+1
+15 ~ ~ 10 4
+0
+15 ieee std_logic_1164 5 3
+1
+1
+145
+2
+X"51"
+0
+0
+0
+1
+10
+0
+10
+15 ~ ~ 34 0
+0
+0
+0
+1
+0
+0
+35
+0
+1
+15 STD STANDARD 75 4
+1
+1
+1
+24
+0
+24
+15 ~ ~ 35 0
+0
+1
+15 ieee std_logic_1164 5 3
+1
+0
+0
+0
+1
+10
+0
+10
+15 ~ ~ 36 1
+1
+0
+0
+1
+0
+0
+37
+0
+1
+15 STD STANDARD 88 8
+0
+15 STD STANDARD 75 4
+1
+1
+24
+0
+24
+15 ~ ~ 37 0
+0
+1
+15 ieee std_logic_1164 5 3
+1
+0
+0
+0
+1
+9
+0
+9
+15 ~ ~ 38 2
+2
+0
+0
+2
+0
+0
+40
+0
+1
+1
+24
+0
+24
+15 ~ ~ 39 0
+0
+1
+15 STD STANDARD 75 4
+1
+0
+0
+1
+25
+0
+25
+15 ~ ~ 40 0
+0
+68
+1
+15 ieee std_logic_1164 5 3
+1
+0
+0
+0
+0
+#VLB_VERSION 52
+#INFO
+dp32_types
+P 1494402850.480
+41
+#ACCESS
+std
+.
+ieee
+std_logic_1164 all .
+.
+#OBJECTS
+unit_delay 0 1 56 1 . 11
+~NATURAL~range~31~downto~0~ 1 5 139 1 . 14
+bit_32 2 5 308 1 . 14
+~NATURAL~range~2~downto~0~ 3 5 512 1 . 15
+CC_bits 4 5 679 1 . 15
+~NATURAL~range~3~downto~0~ 5 5 881 1 . 16
+cm_bits 6 5 1048 1 . 16
+~NATURAL~range~31~downto~0~1 7 5 1250 1 . 17
+bus_bit_32 8 5 1419 1 . 17
+~NATURAL~range~7~downto~0~ 9 5 1623 1 . 18
+bit_8 10 5 1790 1 . 18
+bool_to_bit_table 11 4 1993 1 . 20
+bit_32_array 12 4 2127 1 . 21
+bool_to_bit 13 1 2217 1 . 23
+op_add 14 1 2261 1 . 24
+op_sub 15 1 2350 1 . 25
+op_mul 16 1 2439 1 . 26
+op_div 17 1 2528 1 . 27
+op_addq 18 1 2617 1 . 28
+op_subq 19 1 2706 1 . 29
+op_mulq 20 1 2795 1 . 30
+op_divq 21 1 2884 1 . 31
+op_land 22 1 2973 1 . 32
+op_lor 23 1 3064 1 . 33
+op_lxor 24 1 3155 1 . 34
+op_lmask 25 1 3246 1 . 35
+op_ld 26 1 3337 1 . 36
+op_st 27 1 3428 1 . 37
+op_ldq 28 1 3519 1 . 38
+op_stq 29 1 3610 1 . 39
+op_br 30 1 3701 1 . 40
+op_brq 31 1 3792 1 . 41
+op_bi 32 1 3883 1 . 42
+op_biq 33 1 3974 1 . 43
+bits_to_int 34 10 4066 1 . 52 1937 1 52 65
+bits 35 24 4132 0 . 52
+bits_to_natural 36 10 4193 1 . 54 2070 1 54 69
+bits 37 24 4280 0 . 54
+int_to_bits 38 9 4340 1 . 56 2167 1 56 68
+int 39 24 4380 0 . 56
+bits 40 25 4433 0 . 56
+#SPECIFICATION 
+#END
+(unit (dp32_types 0 10 (dp32_types 0 58 ))
+  (version v11)
+  (time 1496057003.040 2017.05.29 15:23:23)
+  (source (\.\\src\\alu_32.vhd\))
+  (use (std(standard))(ieee(std_logic_1164)))
+  (object
+    (constant (internal unit_delay ~extSTD.STANDARD.TIME 0 11 (architecture -1 ((d 1000)))))
+    (type (internal bit_32 0 14 (array ~extieee.std_logic_1164.std_logic ((downto (i 31)(i 0))))))
+    (type (internal CC_bits 0 15 (array ~extieee.std_logic_1164.std_logic ((downto (i 2)(i 0))))))
+    (type (internal cm_bits 0 16 (array ~extieee.std_logic_1164.std_logic ((downto (i 3)(i 0))))))
+    (type (internal bus_bit_32 0 17 (array ~extieee.std_logic_1164.std_logic ((downto (i 31)(i 0))))))
+    (type (internal bit_8 0 18 (array ~extieee.std_logic_1164.std_logic ((downto (i 7)(i 0))))))
+    (type (internal bool_to_bit_table 0 20 (array ~extieee.std_logic_1164.std_logic ((to (i 0)(i 1))))))
+    (type (internal bit_32_array 0 21 (array bit_32 ((uto (i -2147483648)(i 2147483647))))))
+    (constant (internal bool_to_bit bool_to_bit_table 0 23 (architecture -1 ((0(i 2))(1(i 3))))))
+    (constant (internal op_add bit_8 0 24 (architecture -1 (((i 2))((i 2))((i 2))((i 2))((i 2))((i 2))((i 2))((i 2))))))
+    (constant (internal op_sub bit_8 0 25 (architecture -1 (((i 2))((i 2))((i 2))((i 2))((i 2))((i 2))((i 2))((i 3))))))
+    (constant (internal op_mul bit_8 0 26 (architecture -1 (((i 2))((i 2))((i 2))((i 2))((i 2))((i 2))((i 3))((i 2))))))
+    (constant (internal op_div bit_8 0 27 (architecture -1 (((i 2))((i 2))((i 2))((i 2))((i 2))((i 2))((i 3))((i 3))))))
+    (constant (internal op_addq bit_8 0 28 (architecture -1 (((i 2))((i 2))((i 2))((i 3))((i 2))((i 2))((i 2))((i 2))))))
+    (constant (internal op_subq bit_8 0 29 (architecture -1 (((i 2))((i 2))((i 2))((i 3))((i 2))((i 2))((i 2))((i 3))))))
+    (constant (internal op_mulq bit_8 0 30 (architecture -1 (((i 2))((i 2))((i 2))((i 3))((i 2))((i 2))((i 3))((i 2))))))
+    (constant (internal op_divq bit_8 0 31 (architecture -1 (((i 2))((i 2))((i 2))((i 3))((i 2))((i 2))((i 3))((i 3))))))
+    (constant (internal op_land bit_8 0 32 (architecture -1 (((i 2))((i 2))((i 2))((i 2))((i 2))((i 3))((i 2))((i 2))))))
+    (constant (internal op_lor bit_8 0 33 (architecture -1 (((i 2))((i 2))((i 2))((i 2))((i 2))((i 3))((i 2))((i 3))))))
+    (constant (internal op_lxor bit_8 0 34 (architecture -1 (((i 2))((i 2))((i 2))((i 2))((i 2))((i 3))((i 3))((i 2))))))
+    (constant (internal op_lmask bit_8 0 35 (architecture -1 (((i 2))((i 2))((i 2))((i 2))((i 2))((i 3))((i 3))((i 3))))))
+    (constant (internal op_ld bit_8 0 36 (architecture -1 (((i 2))((i 2))((i 3))((i 2))((i 2))((i 2))((i 2))((i 2))))))
+    (constant (internal op_st bit_8 0 37 (architecture -1 (((i 2))((i 2))((i 3))((i 2))((i 2))((i 2))((i 2))((i 3))))))
+    (constant (internal op_ldq bit_8 0 38 (architecture -1 (((i 2))((i 2))((i 3))((i 3))((i 2))((i 2))((i 2))((i 2))))))
+    (constant (internal op_stq bit_8 0 39 (architecture -1 (((i 2))((i 2))((i 3))((i 3))((i 2))((i 2))((i 2))((i 3))))))
+    (constant (internal op_br bit_8 0 40 (architecture -1 (((i 2))((i 3))((i 2))((i 2))((i 2))((i 2))((i 2))((i 2))))))
+    (constant (internal op_brq bit_8 0 41 (architecture -1 (((i 2))((i 3))((i 2))((i 3))((i 2))((i 2))((i 2))((i 2))))))
+    (constant (internal op_bi bit_8 0 42 (architecture -1 (((i 2))((i 3))((i 2))((i 2))((i 2))((i 2))((i 2))((i 3))))))
+    (constant (internal op_biq bit_8 0 43 (architecture -1 (((i 2))((i 3))((i 2))((i 3))((i 2))((i 2))((i 2))((i 3))))))
+    (constant (internal bool_to_bit bool_to_bit_table 0 59 (architecture -1 ((0(i 2))(1(i 3))))))
+    (type (internal ~std_logic_vector{31~downto~0}~ 0 131 (array ~extieee.std_logic_1164.std_logic ((downto (i 31)(i 0))))))
+    (type (external ~extSTD.STANDARD.TIME (STD STANDARD TIME)))
+    (type (external ~extieee.std_logic_1164.std_logic (ieee std_logic_1164 std_logic)))
+    (type (external ~extieee.std_logic_1164.std_ulogic (ieee std_logic_1164 std_ulogic)))
+    (type (external ~extieee.std_logic_1164.std_logic_vector (ieee std_logic_1164 std_logic_vector)))
+    (type (external ~extSTD.STANDARD.INTEGER (STD STANDARD INTEGER)))
+    (type (external ~extSTD.STANDARD.NATURAL (STD STANDARD NATURAL)))
+    (subprogram
+      (internal bits_to_int 0 0 52 (architecture (function )))
+      (internal bits_to_natural 1 0 54 (architecture (function )))
+      (internal int_to_bits 2 0 56 (architecture (procedure )))
+      (external resolved (ieee std_logic_1164 0))
+    )
+  )
+  (model
+    (
+      (2b83(1))
+      (2c83(2200006(1)))
+      (2c83(2400005(5)))
+      (2c83(2200004(1)))
+      (2c83(2200003(1)))
+      (2c83(2200002(1)))
+      (2c83(2200001(1)))
+      (2c83(2400000(5)))
+      (296c(1a00000(4400003)))
+      (b9ac)
+      (7c5f(1))
+      (7c5f(1))
+      (545f(1a00000))
+      (337c(2400000(5)))
+      (795f(2400000))
+      (3284(1200000(4400001)))
+      (d6(0(40)))
+      (336c(2200001))
+      (d6(0(41)))
+      (336c(2200002))
+      (d6(0(43)))
+      (b5f(1a00000))
+      (3f5f(1a00000))
+      (7c5f(1))
+      (3393(1a00000))
+      (b95f)
+      (7c0b(3))
+      (3(28))
+      (d6(0(44)))
+      (b5f(1a00000))
+      (5d5f(1a00000))
+      (b969)
+      (5a5f(1a00000(1)))
+      (14b7)
+      (595f(2400000(1)))
+      (b9d0)
+      (b5f(1200000))
+      (5d5f(1a00000))
+      (b97c)
+      (1(33))
+      (d6(0(46)))
+      (b5f(1a00000))
+      (5d5f(1a00000))
+      (b969)
+      (5a5f(1a00000(1)))
+      (595f(2400000(1)))
+      (b9d0)
+      (b5f(1200000))
+      (5d5f(1a00000))
+      (b97c)
+      (d6(0(47)))
+      (4e5f(1a00000))
+      (6c(2200003))
+      (425f(1a00000))
+      (6c(2200004))
+      (3f5f(1a00000))
+      (7c5f(1))
+      (7c5f(1))
+      (545f(1a00000))
+      (337c(2400005(5)))
+      (6c(2200006))
+      (5f(2200003))
+      (320c(2200004(2200006)))
+      (2(59))
+      (3247(2200004(2200003)))
+      (d6(0(48)))
+      (320b(2200004(2200006)))
+      (2(59))
+      (d6(0(49)))
+      (b5f(1200000))
+      (5f(2200006))
+      (7c5f(1))
+      (3392(2400000))
+      (b95f)
+      (7c0b(2))
+      (3(4f))
+      (d6(0(4a)))
+      (336c(2200002))
+      (1(52))
+      (d6(0(4c)))
+      (336c(2200002(1)))
+      (d6(0(4d)))
+      (d6(0(4f)))
+      (332e(2200001(2)))
+      (26(2200002))
+      (6c(2200001))
+      (3247(2200006(2200003)))
+      (d6(0(50)))
+      (1(41))
+      (d6(0(51)))
+      (b5f(1a00000))
+      (3f5f(1a00000))
+      (7c5f(1))
+      (3393(1a00000))
+      (b95f)
+      (7c0b(3))
+      (3(66))
+      (d6(0(52)))
+      (3c(2200001))
+      (7c29(1))
+      (6c(2200001))
+      (d6(0(53)))
+      (d6(0(54)))
+      (5f(2200001))
+      (b907)
+    )
+    (
+      (2c83(2200005(1)))
+      (2c83(2400004(5)))
+      (2c83(2200003(1)))
+      (2c83(2200002(1)))
+      (2c83(2200001(1)))
+      (2c83(2200000(1)))
+      (296c(1a00000(4400003)))
+      (b9ac)
+      (d6(0(73)))
+      (336c(2200000))
+      (d6(0(74)))
+      (336c(2200001))
+      (4e5f(1a00000))
+      (6c(2200002))
+      (425f(1a00000))
+      (6c(2200003))
+      (3f5f(1a00000))
+      (7c5f(1))
+      (7c5f(1))
+      (545f(1a00000))
+      (337c(2400004(5)))
+      (6c(2200005))
+      (5f(2200002))
+      (320c(2200003(2200005)))
+      (2(33))
+      (3247(2200003(2200002)))
+      (d6(0(76)))
+      (320b(2200003(2200005)))
+      (2(33))
+      (d6(0(77)))
+      (b5f(1a00000))
+      (5f(2200005))
+      (7c5f(1))
+      (3393(1a00000))
+      (b95f)
+      (7c0b(2))
+      (3(28))
+      (d6(0(78)))
+      (336c(2200001))
+      (1(2b))
+      (d6(0(7a)))
+      (336c(2200001(1)))
+      (d6(0(7b)))
+      (d6(0(7d)))
+      (332e(2200000(2)))
+      (26(2200001))
+      (22cc(0(7fffffff)))
+      (6c(2200000))
+      (3247(2200005(2200002)))
+      (d6(0(7e)))
+      (1(1a))
+      (d6(0(7f)))
+      (5f(2200000))
+      (b907)
+    )
+    (
+      (2c83(2200006(1)))
+      (2c83(2400005(5)))
+      (2c83(2200004(1)))
+      (2c83(2200003(1)))
+      (2d83(2200002(4400004)))
+      (2d83(2200001(8400007)))
+      (296c(1a00000(4400003)))
+      (286c(2200000(1)))
+      (b9ac)
+      (d6(0(86)))
+      (331e(2200000))
+      (3(11))
+      (d6(0(87)))
+      (3326(2200000(1)))
+      (b93c)
+      (6c(2200002))
+      (1(15))
+      (d6(0(89)))
+      (5f(2200000))
+      (6c(2200002))
+      (d6(0(8a)))
+      (515f(1a00000))
+      (6c(2200003))
+      (3f5f(1a00000))
+      (6c(2200004))
+      (425f(1a00000))
+      (7c5f(1))
+      (7c5f(1))
+      (575f(1a00000))
+      (337c(2400005(5)))
+      (6c(2200006))
+      (5f(2200003))
+      (320c(2200004(2200006)))
+      (2(40))
+      (3247(2200004(2200003)))
+      (d6(0(8b)))
+      (320b(2200004(2200006)))
+      (2(40))
+      (d6(0(8c)))
+      (5f(2200002))
+      (7c3a(2))
+      (7c0b)
+      (3(33))
+      (d6(0(8d)))
+      (7c5f(2))
+      (b5f(2200001))
+      (5f(2200006))
+      (24cd(1f))
+      (7ca0(1f))
+      (b96c)
+      (1(3b))
+      (d6(0(8f)))
+      (7c5f(3))
+      (b5f(2200001))
+      (5f(2200006))
+      (24cd(1f))
+      (7ca0(1f))
+      (b96c)
+      (d6(0(90)))
+      (d6(0(91)))
+      (334a(2200002(2)))
+      (3247(2200006(2200003)))
+      (d6(0(92)))
+      (1(23))
+      (d6(0(93)))
+      (331e(2200000))
+      (3(51))
+      (d6(0(94)))
+      (3369(2200001(20)))
+      (35aa(1f))
+      (14b7)
+      (24ce(1f))
+      (337c(2200001(20)))
+      (d6(0(95)))
+      (7c5f(3))
+      (b5f(2200001))
+      (3f5f(1a00000))
+      (24cd(1f))
+      (7ca0(1f))
+      (b96c)
+      (d6(0(96)))
+      (d6(0(97)))
+      (3369(2200001(20)))
+      (5a5f(1a00000(1)))
+      (24d0(1f))
+      (b5f(1a00000))
+      (5d5f(1a00000))
+      (b97c)
+      (d6(0(98)))
+      (1369(1a00000))
+      (b907)
+    )
+  )
+)
+01000066 V ALU_32 5 ".\src\alu_32.vhd" 559 344 1
+ behaviour 10320 664 0 0
+12
+0
+12
+00000180
+1
+.\src\alu_32.vhd
+0
+0 0 0 0 0 0
+1
+1
+30
+0
+30
+12 ~ ~ 0 0
+0
+1
+15 STD STANDARD 77 6
+1
+1
+1
+139
+0
+0
+0
+0
+1
+unit_delay
+0
+0
+0
+1
+1
+15 ~ dp32_types 0 0
+1
+0
+0
+0
+1
+29
+0
+29
+12 ~ ~ 1 0
+0
+67
+0
+1
+15 ~ dp32_types 2 0
+0
+15 ieee std_logic_1164 5 3
+0
+0
+1
+29
+0
+29
+12 ~ ~ 2 1
+1
+67
+0
+1
+15 ~ dp32_types 2 0
+0
+15 ieee std_logic_1164 5 3
+0
+0
+1
+29
+0
+29
+12 ~ ~ 3 2
+2
+68
+1
+1
+15 ~ dp32_types 8 3
+0
+15 ieee std_logic_1164 5 3
+0
+0
+1
+29
+0
+29
+12 ~ ~ 4 3
+3
+68
+0
+1
+15 ~ dp32_types 4 1
+0
+15 ieee std_logic_1164 5 3
+0
+0
+1
+29
+0
+29
+12 ~ ~ 5 4
+4
+67
+0
+1
+15 ~ alu_32_types 0 0
+1
+0
+0
+0
+#VLB_VERSION 52
+#INFO
+ALU_32
+E 1494403642.447
+6
+#ACCESS
+~
+avhdllab21
+alu_32_types all .
+dp32_types all .
+.
+std
+.
+ieee
+std_logic_1164 all .
+.
+#OBJECTS
+Tpd 0 30 57 1 . 181
+operand1 1 29 172 1 . 182
+operand2 2 29 255 1 . 183
+result 3 29 338 1 . 184
+cond_code 4 29 421 1 . 185
+command 5 29 504 1 . 186
+#SPECIFICATION 
+#END
+(unit (ALU_32 0 180 (behaviour 0 188 ))
+  (version v11)
+  (time 1496057003.212 2017.05.29 15:23:23)
+  (source (\.\\src\\alu_32.vhd\))
+  (use (std(standard))(avhdllab21(alu_32_types))(avhdllab21(dp32_types))(ieee(std_logic_1164)))
+  (object
+    (generic (internal Tpd ~extSTD.STANDARD.TIME 0 181 \1.0 ns\ (architecture -1 ((d 1000)))))
+    (port (internal operand1 ~extavhdllab21.dp32_types.bit_32 0 182 (architecture (in ))))
+    (port (internal operand2 ~extavhdllab21.dp32_types.bit_32 0 183 (architecture (in ))))
+    (port (internal result ~extavhdllab21.dp32_types.bus_bit_32 0 184 (architecture (out ))))
+    (port (internal cond_code ~extavhdllab21.dp32_types.CC_bits 0 185 (architecture (out ))))
+    (port (internal command ~extavhdllab21.alu_32_types.ALU_command 0 186 (architecture (in ))))
+    (signal (alias cc_V ~extieee.std_logic_1164.std_logic 0 189 (architecture (3(0(1))))))
+    (signal (alias cc_N ~extieee.std_logic_1164.std_logic 0 190 (architecture (3(1(1))))))
+    (signal (alias cc_Z ~extieee.std_logic_1164.std_logic 0 191 (architecture (3(2(1))))))
+    (variable (internal a ~extSTD.STANDARD.INTEGER 0 195 (process 0 )))
+    (variable (internal b ~extSTD.STANDARD.INTEGER 0 195 (process 0 )))
+    (variable (internal temp_result ~extavhdllab21.dp32_types.bit_32 0 196 (process 0 ((others(i 2))))))
+    (type (external ~extSTD.STANDARD.TIME (STD STANDARD TIME)))
+    (type (external ~extavhdllab21.dp32_types.bit_32 (avhdllab21 dp32_types bit_32)))
+    (type (external ~extieee.std_logic_1164.std_logic (ieee std_logic_1164 std_logic)))
+    (type (external ~extieee.std_logic_1164.std_ulogic (ieee std_logic_1164 std_ulogic)))
+    (type (external ~extieee.std_logic_1164.std_logic_vector (ieee std_logic_1164 std_logic_vector)))
+    (type (external ~extavhdllab21.dp32_types.bus_bit_32 (avhdllab21 dp32_types bus_bit_32)))
+    (type (external ~extavhdllab21.dp32_types.CC_bits (avhdllab21 dp32_types CC_bits)))
+    (type (external ~extavhdllab21.alu_32_types.ALU_command (avhdllab21 alu_32_types ALU_command)))
+    (type (external ~extSTD.STANDARD.INTEGER (STD STANDARD INTEGER)))
+    (type (external ~extavhdllab21.dp32_types.bool_to_bit_table (avhdllab21 dp32_types bool_to_bit_table)))
+    (variable (external unit_delay(avhdllab21 dp32_types 0)))
+    (variable (external bool_to_bit(avhdllab21 dp32_types 1)))
+    (process
+      (ALU_function(architecture 0 0 194 (process (target(7)(6)(5)(2))(sensitivity(4)(1)(0)))))
+    )
+    (subprogram
+      (external resolved (ieee std_logic_1164 0))
+      (external bits_to_int (avhdllab21 dp32_types 0))
+      (external int_to_bits (avhdllab21 dp32_types 2))
+    )
+  )
+  (static
+    (2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 )
+  )
+  (model
+    (
+      (2c83(2200001(1)))
+      (2c83(2200000(1)))
+      (b9ac)
+      (d6(0(c6)))
+      (5f(8300004))
+      (6c(2200000))
+      (330b(2200000(7)))
+      (2(e))
+      (330b(2200000(8)))
+      (2(e))
+      (330b(2200000(9)))
+      (2(e))
+      (330b(2200000(a)))
+      (3(19))
+      (d6(0(c8)))
+      (3369(8300000(20)))
+      (35aa(1f))
+      (a(4000001))
+      (6c(8200001))
+      (d6(0(c9)))
+      (3369(8300001(20)))
+      (35aa(1f))
+      (a(4000001))
+      (6c(8200002))
+      (1(23))
+      (330b(2200000(6)))
+      (3(23))
+      (d6(0(cb)))
+      (3369(8300000(20)))
+      (35aa(1f))
+      (a(4000001))
+      (6c(8200001))
+      (d6(0(cc)))
+      (336c(8200002(1)))
+      (1(23))
+      (d6(0(cf)))
+      (d6(0(d0)))
+      (5f(8300004))
+      (6c(2200001))
+      (330b(2200001))
+      (3(2a))
+      (1(14d))
+      (330b(2200001(1)))
+      (3(30))
+      (d6(0(d4)))
+      (3369(8300000(20)))
+      (337c(8200003(20)))
+      (1(14d))
+      (330b(2200001(2)))
+      (3(3b))
+      (d6(0(d6)))
+      (3369(8300000(20)))
+      (35aa(1f))
+      (3369(8300001(20)))
+      (35aa(1f))
+      (8b7)
+      (24ce(1f))
+      (337c(8200003(20)))
+      (1(14d))
+      (330b(2200001(3)))
+      (3(46))
+      (d6(0(d8)))
+      (3369(8300000(20)))
+      (35aa(1f))
+      (3369(8300001(20)))
+      (35aa(1f))
+      (cb7)
+      (24ce(1f))
+      (337c(8200003(20)))
+      (1(14d))
+      (330b(2200001(4)))
+      (3(51))
+      (d6(0(da)))
+      (3369(8300000(20)))
+      (35aa(1f))
+      (3369(8300001(20)))
+      (35aa(1f))
+      (10b7)
+      (24ce(1f))
+      (337c(8200003(20)))
+      (1(14d))
+      (330b(2200001(5)))
+      (3(5d))
+      (d6(0(dc)))
+      (3369(8300000(20)))
+      (35aa(1f))
+      (3369(8300001(20)))
+      (35aa(1f))
+      (14b7)
+      (8b7)
+      (24ce(1f))
+      (337c(8200003(20)))
+      (1(14d))
+      (330b(2200001(7)))
+      (2(61))
+      (330b(2200001(6)))
+      (3(9c))
+      (d6(0(de)))
+      (3316(8200002))
+      (5(68))
+      (5f(8200001))
+      (3429(7fffffff(8200002)))
+      (b916)
+      (b94f)
+      (3(78))
+      (d6(0(df)))
+      (3326(8200001(80000000)))
+      (26(8200002))
+      (7c29(7fffffff))
+      (7c29(1))
+      (3369(8200003(20)))
+      (35aa(1f))
+      (9(4000002))
+      (337c(8200003(20)))
+      (d6(0(e0)))
+      (7c5f(3))
+      (66(8200000))
+      (105f(8300005))
+      (9987)
+      (1(9b))
+      (d6(0(e1)))
+      (331e(8200002))
+      (5(7f))
+      (5f(8200001))
+      (3429(80000000(8200002)))
+      (b91e)
+      (b94f)
+      (3(8f))
+      (d6(0(e2)))
+      (3326(8200001(7fffffff)))
+      (26(8200002))
+      (7c29(80000000))
+      (7c26(1))
+      (3369(8200003(20)))
+      (35aa(1f))
+      (9(4000002))
+      (337c(8200003(20)))
+      (d6(0(e3)))
+      (7c5f(3))
+      (66(8200000))
+      (105f(8300005))
+      (9987)
+      (1(9b))
+      (d6(0(e5)))
+      (3226(8200001(8200002)))
+      (3369(8200003(20)))
+      (35aa(1f))
+      (9(4000002))
+      (337c(8200003(20)))
+      (d6(0(e6)))
+      (7c5f(2))
+      (66(8200000))
+      (105f(8300005))
+      (9987)
+      (d6(0(e7)))
+      (1(14d))
+      (330b(2200001(8)))
+      (3(d9))
+      (d6(0(e9)))
+      (331e(8200002))
+      (5(a5))
+      (5f(8200001))
+      (3326(8200002(7fffffff)))
+      (b916)
+      (b94f)
+      (3(b5))
+      (d6(0(ea)))
+      (3326(8200001(80000000)))
+      (29(8200002))
+      (7c29(7fffffff))
+      (7c29(1))
+      (3369(8200003(20)))
+      (35aa(1f))
+      (9(4000002))
+      (337c(8200003(20)))
+      (d6(0(eb)))
+      (7c5f(3))
+      (66(8200000))
+      (105f(8300005))
+      (9987)
+      (1(d8))
+      (d6(0(ec)))
+      (3316(8200002))
+      (5(bc))
+      (5f(8200001))
+      (3326(8200002(80000000)))
+      (b91e)
+      (b94f)
+      (3(cc))
+      (d6(0(ed)))
+      (3326(8200001(7fffffff)))
+      (29(8200002))
+      (7c29(80000000))
+      (7c26(1))
+      (3369(8200003(20)))
+      (35aa(1f))
+      (9(4000002))
+      (337c(8200003(20)))
+      (d6(0(ee)))
+      (7c5f(3))
+      (66(8200000))
+      (105f(8300005))
+      (9987)
+      (1(d8))
+      (d6(0(f0)))
+      (3229(8200001(8200002)))
+      (3369(8200003(20)))
+      (35aa(1f))
+      (9(4000002))
+      (337c(8200003(20)))
+      (d6(0(f1)))
+      (7c5f(2))
+      (66(8200000))
+      (105f(8300005))
+      (9987)
+      (d6(0(f2)))
+      (1(14d))
+      (330b(2200001(9)))
+      (3(127))
+      (d6(0(f4)))
+      (3316(8200001))
+      (5(e0))
+      (3316(8200002))
+      (b94f)
+      (4(e6(1)))
+      (331e(8200001))
+      (5(e5))
+      (331e(8200002))
+      (b94f)
+      (b94b)
+      (5(ed))
+      (41(8200001))
+      (7c5f(7fffffff))
+      (41(8200002))
+      (b934)
+      (b916)
+      (b94f)
+      (3(fa))
+      (d6(0(f7)))
+      (7c5f(7fffffff))
+      (3369(8200003(20)))
+      (35aa(1f))
+      (9(4000002))
+      (337c(8200003(20)))
+      (d6(0(f8)))
+      (7c5f(3))
+      (66(8200000))
+      (105f(8300005))
+      (9987)
+      (1(126))
+      (d6(0(f9)))
+      (3316(8200001))
+      (5(ff))
+      (331e(8200002))
+      (b94f)
+      (4(105(1)))
+      (331e(8200001))
+      (5(104))
+      (3316(8200002))
+      (b94f)
+      (b94b)
+      (5(10d))
+      (41(8200001))
+      (b93c)
+      (7c5f(80000000))
+      (41(8200002))
+      (b934)
+      (b91e)
+      (b94f)
+      (3(11a))
+      (d6(0(fc)))
+      (7c5f(80000000))
+      (3369(8200003(20)))
+      (35aa(1f))
+      (9(4000002))
+      (337c(8200003(20)))
+      (d6(0(fd)))
+      (7c5f(3))
+      (66(8200000))
+      (105f(8300005))
+      (9987)
+      (1(126))
+      (d6(0(ff)))
+      (322e(8200001(8200002)))
+      (3369(8200003(20)))
+      (35aa(1f))
+      (9(4000002))
+      (337c(8200003(20)))
+      (d6(0(100)))
+      (7c5f(2))
+      (66(8200000))
+      (105f(8300005))
+      (9987)
+      (d6(0(101)))
+      (1(14d))
+      (d6(0(103)))
+      (330b(8200002))
+      (3(141))
+      (d6(0(104)))
+      (3317(8200001))
+      (3(134))
+      (d6(0(105)))
+      (7c5f(7fffffff))
+      (3369(8200003(20)))
+      (35aa(1f))
+      (9(4000002))
+      (337c(8200003(20)))
+      (1(13b))
+      (d6(0(107)))
+      (7c5f(80000000))
+      (3369(8200003(20)))
+      (35aa(1f))
+      (9(4000002))
+      (337c(8200003(20)))
+      (d6(0(108)))
+      (d6(0(109)))
+      (7c5f(3))
+      (66(8200000))
+      (105f(8300005))
+      (9987)
+      (1(14d))
+      (d6(0(10b)))
+      (3234(8200001(8200002)))
+      (3369(8200003(20)))
+      (35aa(1f))
+      (9(4000002))
+      (337c(8200003(20)))
+      (d6(0(10c)))
+      (7c5f(2))
+      (66(8200000))
+      (105f(8300005))
+      (9987)
+      (d6(0(10d)))
+      (d6(0(10e)))
+      (d6(0(10f)))
+      (330d(8300004))
+      (3(158))
+      (d6(0(110)))
+      (3369(8200003(20)))
+      (66(8200000))
+      (105f(8300002))
+      (7c5f(20))
+      (9787)
+      (1(15e))
+      (d6(0(112)))
+      (66(8200000))
+      (105f(8300002))
+      (7c5f(20))
+      (8b87)
+      (d6(0(113)))
+      (d6(0(115)))
+      (b5f(4200001))
+      (3369(8200003(20)))
+      (35aa(1f))
+      (3369(3200000(20)))
+      (35a9(0(1f)))
+      (7c12(1))
+      (22cd(0(1)))
+      (b995)
+      (66(8200000))
+      (105f(8300007))
+      (9987)
+      (d6(0(116)))
+      (b5f(4200001))
+      (330b(8200003(3)))
+      (22cd(0(1)))
+      (b995)
+      (66(8200000))
+      (105f(8300006))
+      (9987)
+      (d6(0(121)))
+      (af08)
+      (1(3))
+    )
+  )
+)
+2_______
+52
+behaviour
+4
+8
+std
+.
+.
+1
+1
+7
+cc_V
+0
+7
+13 ~ ~ 0 0
+189
+5
+29
+1
+15 ieee std_logic_1164 4 2
+0
+15 ieee std_logic_1164 0 0
+1
+0
+1
+1
+1
+0
+0
+0
+0
+1
+cond_code
+0
+0
+0
+1
+29
+12 avhdllab21 ALU_32 4 3
+1
+0
+1
+1
+142
+1
+145
+147
+1
+2
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+7
+cc_N
+0
+7
+13 ~ ~ 1 1
+190
+6
+29
+1
+15 ieee std_logic_1164 4 2
+0
+15 ieee std_logic_1164 0 0
+1
+0
+1
+1
+1
+0
+0
+0
+0
+1
+cond_code
+0
+0
+0
+1
+29
+12 avhdllab21 ALU_32 4 3
+1
+0
+1
+1
+142
+1
+145
+147
+1
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+7
+cc_Z
+0
+7
+13 ~ ~ 2 2
+191
+7
+29
+1
+15 ieee std_logic_1164 4 2
+0
+15 ieee std_logic_1164 0 0
+1
+0
+1
+1
+1
+0
+0
+0
+0
+1
+cond_code
+0
+0
+0
+1
+29
+12 avhdllab21 ALU_32 4 3
+1
+0
+1
+1
+142
+1
+145
+147
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+01000088 V alu_32_tb 5 ".\src\TestBench\ALU_32_TB.vhd" 151 213 1
+ TB_ARCHITECTURE 4532 1778 0 0
+12
+0
+12
+00000017
+1
+.\src\TestBench\ALU_32_TB.vhd
+0
+0 0 0 0 0 0
+1
+1
+30
+0
+30
+12 ~ ~ 0 0
+0
+1
+15 STD STANDARD 77 6
+1
+1
+1
+145
+147
+0
+0
+1
+1
+ns
+0
+1
+1.
+0
+0
+0
+0
+#VLB_VERSION 52
+#INFO
+alu_32_tb
+E 1494405988.682
+1
+#ACCESS
+~
+avhdllab21
+alu_32_types all .
+dp32_types all .
+.
+std
+.
+ieee
+std_logic_1164 all .
+.
+#OBJECTS
+TPD 0 30 70 1 . 20
+#SPECIFICATION 
+#END
+(unit (alu_32_tb 0 17 (TB_ARCHITECTURE 0 23 ))
+  (version v11)
+  (time 1496057004.352 2017.05.29 15:23:24)
+  (source (\.\\src\\TestBench\\ALU_32_TB.vhd\))
+  (use (std(standard))(avhdllab21(alu_32_types))(avhdllab21(dp32_types))(ieee(std_logic_1164)))
+  (object
+    (generic (internal TPD ~extSTD.STANDARD.TIME 0 20 \1.0 ns\ (architecture -1 ((d 1000)))))
+    (signal (internal operand1 ~extavhdllab21.dp32_types.bit_32 0 37 (architecture (uni ))))
+    (signal (internal operand2 ~extavhdllab21.dp32_types.bit_32 0 38 (architecture (uni ))))
+    (signal (internal command ~extavhdllab21.alu_32_types.ALU_command 0 39 (architecture (uni ))))
+    (signal (internal result ~extavhdllab21.dp32_types.bus_bit_32 0 41 (architecture (uni ))))
+    (signal (internal cond_code ~extavhdllab21.dp32_types.CC_bits 0 42 (architecture (uni ))))
+    (type (external ~extSTD.STANDARD.TIME (STD STANDARD TIME)))
+    (type (external ~extavhdllab21.dp32_types.bit_32 (avhdllab21 dp32_types bit_32)))
+    (type (external ~extieee.std_logic_1164.std_logic (ieee std_logic_1164 std_logic)))
+    (type (external ~extieee.std_logic_1164.std_ulogic (ieee std_logic_1164 std_ulogic)))
+    (type (external ~extieee.std_logic_1164.std_logic_vector (ieee std_logic_1164 std_logic_vector)))
+    (type (external ~extavhdllab21.dp32_types.bus_bit_32 (avhdllab21 dp32_types bus_bit_32)))
+    (type (external ~extavhdllab21.dp32_types.CC_bits (avhdllab21 dp32_types CC_bits)))
+    (type (external ~extavhdllab21.alu_32_types.ALU_command (avhdllab21 alu_32_types ALU_command)))
+    (process
+      (STIMULUS(architecture 0 0 60 (process (wait_for)(target(2)(1)(0)))))
+    )
+    (subprogram
+      (external resolved (ieee std_logic_1164 0))
+    )
+  )
+  (component
+    (ALU_32
+      (object
+        (generic (internal TPD ~extSTD.STANDARD.TIME 0 27 (entity -1 ((d 1000)))))
+        (port (internal operand1 ~extavhdllab21.dp32_types.bit_32 0 29 (entity (in ))))
+        (port (internal operand2 ~extavhdllab21.dp32_types.bit_32 0 30 (entity (in ))))
+        (port (internal result ~extavhdllab21.dp32_types.bus_bit_32 0 31 (entity (out ))))
+        (port (internal cond_code ~extavhdllab21.dp32_types.CC_bits 0 32 (entity (out ))))
+        (port (internal command ~extavhdllab21.alu_32_types.ALU_command 0 33 (entity (in ))))
+      )
+    )
+  )
+  (instantiation UUT 0 49 (component ALU_32)
+    (port
+      ((operand1)(operand1))
+      ((operand2)(operand2))
+      ((result)(result))
+      ((cond_code)(cond_code))
+      ((command)(command))
+    )
+    (use (entity avhdllab21 ALU_32)
+    )
+  )
+  (static
+    (2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 )
+    (2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 )
+  )
+  (model
+    (
+      (d6(0(40)))
+      (3369(3200000(20)))
+      (35a9(0(1f)))
+      (24ce(1f))
+      (105f(8300000))
+      (7c5f(20))
+      (9187)
+      (d6(0(41)))
+      (7c5f)
+      (105f(8300002))
+      (9387)
+      (d6(0(42)))
+      (3369(3200001(20)))
+      (35a9(0(1f)))
+      (24ce(1f))
+      (105f(8300001))
+      (7c5f(20))
+      (9187)
+      (d6(0(43)))
+      (2f66(186a0))
+      (b008)
+      (d6(0(44)))
+      (7c5f(1))
+      (105f(8300002))
+      (9387)
+      (d6(0(45)))
+      (2f66(186a0))
+      (b008)
+      (d6(0(46)))
+      (7c5f(2))
+      (105f(8300002))
+      (9387)
+      (d6(0(47)))
+      (2f66(186a0))
+      (b008)
+      (d6(0(48)))
+      (7c5f(3))
+      (105f(8300002))
+      (9387)
+      (d6(0(49)))
+      (2f66(186a0))
+      (b008)
+      (d6(0(4a)))
+      (7c5f(4))
+      (105f(8300002))
+      (9387)
+      (d6(0(4b)))
+      (2f66(186a0))
+      (b008)
+      (d6(0(4c)))
+      (7c5f(5))
+      (105f(8300002))
+      (9387)
+      (d6(0(4d)))
+      (2f66(186a0))
+      (b008)
+      (d6(0(4e)))
+      (7c5f(6))
+      (105f(8300002))
+      (9387)
+      (d6(0(4f)))
+      (2f66(186a0))
+      (b008)
+      (d6(0(50)))
+      (7c5f(7))
+      (105f(8300002))
+      (9387)
+      (d6(0(51)))
+      (2f66(186a0))
+      (b008)
+      (d6(0(52)))
+      (7c5f(8))
+      (105f(8300002))
+      (9387)
+      (d6(0(53)))
+      (2f66(186a0))
+      (b008)
+      (d6(0(54)))
+      (7c5f(9))
+      (105f(8300002))
+      (9387)
+      (d6(0(55)))
+      (2f66(186a0))
+      (b008)
+      (d6(0(56)))
+      (7c5f(a))
+      (105f(8300002))
+      (9387)
+      (d6(0(57)))
+      (2f66(186a0))
+      (b008)
+      (d6(0(59)))
+      (af08)
+      (d6(0(5a)))
+      (1)
+    )
+  )
+)
+13______
+52
+TB_ARCHITECTURE
+1
+5
+std
+.
+.
+1
+1
+18
+ALU_32
+0
+18
+13 ~ ~ 0 0
+25
+0
+1
+30
+TPD
+0
+30
+13 ~ ~ 1 0
+27
+1
+1
+15 STD STANDARD 77 6
+1
+1
+1
+145
+147
+0
+0
+1
+1
+ns
+0
+1
+1.
+0
+0
+1
+29
+operand1
+0
+29
+13 ~ ~ 2 0
+29
+5
+67
+0
+1
+15 avhdllab21 dp32_types 2 0
+0
+15 ieee std_logic_1164 5 3
+0
+1
+29
+operand2
+0
+29
+13 ~ ~ 3 0
+30
+6
+67
+0
+1
+15 avhdllab21 dp32_types 2 0
+0
+15 ieee std_logic_1164 5 3
+0
+1
+29
+result
+0
+29
+13 ~ ~ 4 0
+31
+7
+68
+0
+1
+15 avhdllab21 dp32_types 8 3
+0
+15 ieee std_logic_1164 5 3
+0
+1
+29
+cond_code
+0
+29
+13 ~ ~ 5 0
+32
+8
+68
+0
+1
+15 avhdllab21 dp32_types 4 1
+0
+15 ieee std_logic_1164 5 3
+0
+1
+29
+command
+0
+29
+13 ~ ~ 6 0
+33
+9
+67
+0
+1
+15 avhdllab21 alu_32_types 0 0
+1
+0
+0
+1
+5
+1
+3
+operand1
+0
+3
+13 ~ ~ 7 0
+37
+0
+1
+15 avhdllab21 dp32_types 2 0
+0
+15 ieee std_logic_1164 5 3
+0
+0
+1
+3
+operand2
+0
+3
+13 ~ ~ 8 1
+38
+1
+1
+15 avhdllab21 dp32_types 2 0
+0
+15 ieee std_logic_1164 5 3
+0
+0
+1
+3
+command
+0
+3
+13 ~ ~ 9 2
+39
+2
+1
+15 avhdllab21 alu_32_types 0 0
+1
+0
+0
+1
+3
+result
+0
+3
+13 ~ ~ 10 3
+41
+3
+1
+15 avhdllab21 dp32_types 8 3
+0
+15 ieee std_logic_1164 5 3
+0
+0
+1
+3
+cond_code
+0
+3
+13 ~ ~ 11 4
+42
+4
+1
+15 avhdllab21 dp32_types 4 1
+0
+15 ieee std_logic_1164 5 3
+0
+0
+0
+1
+1
+1
+39
+39
+39
+~
+0
+39
+13 ~ ~ 13 0
+49
+0
+1
+UUT
+1
+114
+1
+ALU_32
+0
+1
+18
+13 ~ ~ 0 0
+0
+0
+1
+5
+11
+1
+1
+0
+0
+0
+0
+1
+operand1
+0
+0
+0
+1
+29
+13 ~ ~ 2 0
+1
+0
+1
+1
+1
+1
+139
+0
+0
+0
+0
+1
+operand1
+0
+0
+0
+1
+3
+13 ~ ~ 7 0
+1
+0
+0
+0
+0
+11
+1
+1
+0
+0
+0
+0
+1
+operand2
+0
+0
+0
+1
+29
+13 ~ ~ 3 0
+1
+0
+1
+1
+1
+1
+139
+0
+0
+0
+0
+1
+operand2
+0
+0
+0
+1
+3
+13 ~ ~ 8 1
+1
+0
+0
+0
+0
+11
+1
+1
+0
+0
+0
+0
+1
+result
+0
+0
+0
+1
+29
+13 ~ ~ 4 0
+1
+0
+1
+1
+1
+1
+139
+0
+0
+0
+0
+1
+result
+0
+0
+0
+1
+3
+13 ~ ~ 10 3
+1
+0
+0
+0
+0
+11
+1
+1
+0
+0
+0
+0
+1
+cond_code
+0
+0
+0
+1
+29
+13 ~ ~ 5 0
+1
+0
+1
+1
+1
+1
+139
+0
+0
+0
+0
+1
+cond_code
+0
+0
+0
+1
+3
+13 ~ ~ 11 4
+1
+0
+0
+0
+0
+11
+1
+1
+0
+0
+0
+0
+1
+command
+0
+0
+0
+1
+29
+13 ~ ~ 6 0
+1
+0
+1
+1
+1
+1
+139
+0
+0
+0
+0
+1
+command
+0
+0
+0
+1
+3
+13 ~ ~ 9 2
+1
+0
+0
+0
+0
+0
+1
+0
+01000066 V TESTBENCH_FOR_ALU_32 7 ".\src\TestBench\ALU_32_TB.vhd" 0 0 508
+(configuration (TESTBENCH_FOR_ALU_32 0 99 (alu_32_tb))
+  (version v11)
+  (time 1496057004.430 2017.05.29 15:23:24)
+  (source (\.\\src\\TestBench\\ALU_32_TB.vhd\))
+  (use (std(standard)))
+  (architecture TB_ARCHITECTURE
+    (instantiation UUT
+      (entity avhdllab21 ALU_32 behaviour
+        (port
+          ((operand1)(operand1))
+          ((operand2)(operand2))
+          ((result)(result))
+          ((cond_code)(cond_code))
+          ((command)(command))
+        )
+      )
+    )
+  )
+)

@@ -1,0 +1,6 @@
+MESSAGE "File: .\src\TestBench\ALU_32_TB.vhd" 
+MESSAGE "Compile Entity "alu_32_tb"" 
+MESSAGE "Entity "alu_32_tb" has been skipped - no difference detected." 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "alu_32_tb"" 
+MESSAGE "Compile Configuration "TESTBENCH_FOR_ALU_32"" 
+MESSAGE "Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]" 
